@@ -7,7 +7,11 @@ import 'swiper/css/free-mode';
 import { publicSans, exo } from '@/lib/font'
 export const metadata = {
     title: 'SHEMNOC | Construction Project Management',
-    description: 'SHEMNOC is a construction project management company that provides end-to-end solutions for clients who wish to bring their building and infrastructure projects to life — efficiently, effectively, and within budget.'
+    description: 'SHEMNOC is a construction project management company that provides end-to-end solutions for clients who wish to bring their building and infrastructure projects to life — efficiently, effectively, and within budget.',
+    icons: {
+        icon: '/favicon.ico',
+        apple: '/favicon.ico',
+    }
 }
 
 export default function RootLayout({ children }) {
