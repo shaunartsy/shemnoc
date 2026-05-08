@@ -1,6 +1,38 @@
 'use client'
+import { useState } from 'react'
 import Link from "next/link"
+
 export default function Appoinment() {
+    const [formStatus, setFormStatus] = useState(null)
+    const [isSubmitting, setIsSubmitting] = useState(false)
+
+    const handleSubmit = async (e) => {
+        e.preventDefault()
+        setIsSubmitting(true)
+
+        const form = e.target
+        const formData = new FormData(form)
+
+        try {
+            const response = await fetch('/__forms.html', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                body: new URLSearchParams(formData).toString(),
+            })
+
+            if (response.ok) {
+                setFormStatus('success')
+                form.reset()
+            } else {
+                setFormStatus('error')
+            }
+        } catch (error) {
+            setFormStatus('error')
+        }
+
+        setIsSubmitting(false)
+    }
+
     return (
         <>
         {/* Start Appoinment One*/} 
@@ -68,25 +100,33 @@ export default function Appoinment() {
                                 <p>24/7 Support</p>
                             </div>
 
-                            <form method="post" action="/">
+                            <form
+                                name="quote-request"
+                                method="POST"
+                                data-netlify="true"
+                                netlify-honeypot="bot-field"
+                                onSubmit={handleSubmit}
+                            >
+                                <input type="hidden" name="form-name" value="quote-request" />
+                                <p hidden><label>Don't fill this out: <input name="bot-field" /></label></p>
                                 <div className="form-group">
                                     <input type="text" name="username" placeholder="Your Name" required=""/>
                                 </div>
                                 <div className="form-group">
-                                    <input type="email" placeholder="Email Address"  name="form_email"
+                                    <input type="email" placeholder="Email Address" name="email"
                                         required=""/>
                                 </div>
                                 <div className="form-group">
                                     <input type="text" name="phone" placeholder="Phone Number" required=""/>
                                 </div>
                                 <div className="form-group">
-                                    <textarea placeholder="Write Your Message"></textarea>
+                                    <textarea name="message" placeholder="Write Your Message"></textarea>
                                 </div>
                                 <div className="row">
                                     <div className="col-xl-12">
                                         <div className="button-box">
-                                            <button className="thm-btn" type="submit" data-loading-text="Please wait...">
-                                                submit now
+                                            <button className="thm-btn" type="submit" disabled={isSubmitting}>
+                                                {isSubmitting ? 'Sending...' : 'Submit Now'}
                                                 <span className="hover-btn hover-bx"></span>
                                                 <span className="hover-btn hover-bx2"></span>
                                                 <span className="hover-btn hover-bx3"></span>
@@ -96,6 +136,17 @@ export default function Appoinment() {
                                     </div>
                                 </div>
                             </form>
+
+                            {formStatus === 'success' && (
+                                <div style={{marginTop: '20px', padding: '15px', background: '#d4edda', color: '#155724', borderRadius: '5px'}}>
+                                    <p>Thank you! Your quote request has been received. We'll be in touch shortly.</p>
+                                </div>
+                            )}
+                            {formStatus === 'error' && (
+                                <div style={{marginTop: '20px', padding: '15px', background: '#f8d7da', color: '#721c24', borderRadius: '5px'}}>
+                                    <p>Oops! Something went wrong. Please try again or call us at +27 64 985 7455.</p>
+                                </div>
+                            )}
                         </div>
                     </div>
                     {/* End Appoinment One Form*/} 

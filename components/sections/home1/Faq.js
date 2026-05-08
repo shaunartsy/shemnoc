@@ -56,30 +56,6 @@ export default function Faq() {
 
                                 <div className={isActive.key == 2 ? "accrodion active" : "accrodion"} onClick={() => handleToggle(2)}>
                                     <div className="accrodion-title">
-                                        <h4>How much does SHEMNOC charge?</h4>
-                                    </div>
-
-                                    <div className="accrodion-content">
-                                        <div className="inner">
-                                            <p>Our management fee ranges from 4–9% of total project cost, depending on scope, complexity, location, and risk. We provide a detailed fee proposal after the initial consultation.</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div className={isActive.key == 3 ? "accrodion active" : "accrodion"} onClick={() => handleToggle(3)}>
-                                    <div className="accrodion-title">
-                                        <h4>How does the payment structure work?</h4>
-                                    </div>
-
-                                    <div className="accrodion-content">
-                                        <div className="inner">
-                                            <p>50% deposit upon commencement, 25% upon reaching 70% project completion, and the final 25% upon completion and sign-off. A formal SLA is signed before project start.</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div className={isActive.key == 4 ? "accrodion active" : "accrodion"} onClick={() => handleToggle(4)}>
-                                    <div className="accrodion-title">
                                         <h4>Do you handle the money?</h4>
                                     </div>
 
@@ -90,7 +66,7 @@ export default function Faq() {
                                     </div>
                                 </div>
 
-                                <div className={isActive.key == 5 ? "accrodion active" : "accrodion"} onClick={() => handleToggle(5)}>
+                                <div className={isActive.key == 3 ? "accrodion active" : "accrodion"} onClick={() => handleToggle(3)}>
                                     <div className="accrodion-title">
                                         <h4>What types of projects do you manage?</h4>
                                     </div>
@@ -102,7 +78,7 @@ export default function Faq() {
                                     </div>
                                 </div>
 
-                                <div className={isActive.key == 6 ? "accrodion active" : "accrodion"} onClick={() => handleToggle(6)}>
+                                <div className={isActive.key == 4 ? "accrodion active" : "accrodion"} onClick={() => handleToggle(4)}>
                                     <div className="accrodion-title">
                                         <h4>What software tools do you use?</h4>
                                     </div>

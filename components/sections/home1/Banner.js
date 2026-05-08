@@ -72,7 +72,7 @@ export default function Banner() {
 
                                 <div className="main-slider-one__single-video">
                                     <div className="text" style={{ marginLeft: "30px" }}>
-                                        <Link href="/services" className="thm-btn" style={{ backgroundColor: "transparent", color: "var(--billdins-white)", border: "2px solid var(--billdins-white)" }}>View Our Services
+                                        <Link href="/services" className="thm-btn" style={{ backgroundColor: "transparent", color: "var(--billdins-white)", border: "2px solid var(--billdins-white)", lineHeight: "51px" }}>View Our Services
                                             <i className="icon-next"></i>
                                         </Link>
                                     </div>
@@ -117,7 +117,7 @@ export default function Banner() {
 
                                 <div className="main-slider-one__single-video">
                                     <div className="text" style={{ marginLeft: "30px" }}>
-                                        <Link href="/services" className="thm-btn" style={{ backgroundColor: "transparent", color: "var(--billdins-white)", border: "2px solid var(--billdins-white)" }}>View Our Services
+                                        <Link href="/services" className="thm-btn" style={{ backgroundColor: "transparent", color: "var(--billdins-white)", border: "2px solid var(--billdins-white)", lineHeight: "51px" }}>View Our Services
                                             <i className="icon-next"></i>
                                         </Link>
                                     </div>
@@ -162,7 +162,7 @@ export default function Banner() {
 
                                 <div className="main-slider-one__single-video">
                                     <div className="text" style={{ marginLeft: "30px" }}>
-                                        <Link href="/services" className="thm-btn" style={{ backgroundColor: "transparent", color: "var(--billdins-white)", border: "2px solid var(--billdins-white)" }}>View Our Services
+                                        <Link href="/services" className="thm-btn" style={{ backgroundColor: "transparent", color: "var(--billdins-white)", border: "2px solid var(--billdins-white)", lineHeight: "51px" }}>View Our Services
                                             <i className="icon-next"></i>
                                         </Link>
                                     </div>

@@ -30,12 +30,18 @@
 
 .services-one__carousel {
     position: relative;
-    width: 1610px;
+    width: 100%;
+}
+
+.services-one__carousel .swiper-slide {
+    height: auto;
 }
 
 .services-one__single {
     position: relative;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
     padding-top: 35px;
 }
 
@@ -91,7 +97,9 @@
 
 .services-one__single-inner {
     position: relative;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
     background: var(--billdins-white);
     -webkit-box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.06);
     box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.06);
@@ -101,6 +109,7 @@
 .services-one__single-content {
     position: relative;
     display: block;
+    flex-grow: 1;
 }
 
 .services-one__single-content h3 {

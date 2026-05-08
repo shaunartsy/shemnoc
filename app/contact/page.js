@@ -1,7 +1,38 @@
-
+'use client'
+import { useState } from 'react'
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
+
 export default function Home() {
+    const [formStatus, setFormStatus] = useState(null)
+    const [isSubmitting, setIsSubmitting] = useState(false)
+
+    const handleSubmit = async (e) => {
+        e.preventDefault()
+        setIsSubmitting(true)
+
+        const form = e.target
+        const formData = new FormData(form)
+
+        try {
+            const response = await fetch('/__forms.html', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                body: new URLSearchParams(formData).toString(),
+            })
+
+            if (response.ok) {
+                setFormStatus('success')
+                form.reset()
+            } else {
+                setFormStatus('error')
+            }
+        } catch (error) {
+            setFormStatus('error')
+        }
+
+        setIsSubmitting(false)
+    }
 
     return (
         <>
@@ -100,8 +131,16 @@ export default function Home() {
                             <div className="title-box">
                                 <h2>Get In Touch</h2>
                             </div>
-                            <form className="contact-form-validated contact-page__form-box"
-                                action="assets/inc/sendemail.php" method="post" >
+                            <form
+                                name="contact"
+                                method="POST"
+                                data-netlify="true"
+                                netlify-honeypot="bot-field"
+                                onSubmit={handleSubmit}
+                                className="contact-form-validated contact-page__form-box"
+                            >
+                                <input type="hidden" name="form-name" value="contact" />
+                                <p hidden><label>Don't fill this out: <input name="bot-field" /></label></p>
                                 <div className="row">
                                     <div className="col-xl-6 col-lg-6 col-md-6">
                                         <div className="input-box">
@@ -117,19 +156,19 @@ export default function Home() {
                                     </div>
                                     <div className="col-xl-6 col-lg-6 col-md-6">
                                         <div className="input-box">
-                                            <input type="text" name="Phone" placeholder="Phone" required=""/>
+                                            <input type="text" name="phone" placeholder="Phone" required=""/>
                                             <div className="icon"><span className="icon-telephone-call"></span></div>
                                         </div>
                                     </div>
                                     <div className="col-xl-6 col-lg-6 col-md-6">
                                         <div className="input-box">
                                             <div className="select-box">
-                                                <select className="selectmenu wide">
+                                                <select className="selectmenu wide" name="subject">
                                                     <option>Subject</option>
                                                     <option>Project Management Inquiry</option>
                                                     <option>Construction Supervision</option>
                                                     <option>Quantity Surveying</option>
-                                                    <option>Registration & Compliance</option>
+                                                    <option>Registration &amp; Compliance</option>
                                                     <option>Other</option>
                                                 </select>
                                             </div>
@@ -146,8 +185,8 @@ export default function Home() {
 
                                     <div className="col-xl-12">
                                         <div className="contact-page__form-btn">
-                                            <button type="submit" className="thm-btn">
-                                                Submit Now
+                                            <button type="submit" className="thm-btn" disabled={isSubmitting}>
+                                                {isSubmitting ? 'Sending...' : 'Submit Now'}
                                                 <i className="icon-next"></i>
                                                 <span className="hover-btn hover-bx"></span>
                                                 <span className="hover-btn hover-bx2"></span>
@@ -158,7 +197,17 @@ export default function Home() {
                                     </div>
                                 </div>
                             </form>
-                            <div className="result"></div>
+
+                            {formStatus === 'success' && (
+                                <div className="result" style={{marginTop: '20px', padding: '15px', background: '#d4edda', color: '#155724', borderRadius: '5px'}}>
+                                    <p>Thank you! Your message has been sent successfully. We'll get back to you soon.</p>
+                                </div>
+                            )}
+                            {formStatus === 'error' && (
+                                <div className="result" style={{marginTop: '20px', padding: '15px', background: '#f8d7da', color: '#721c24', borderRadius: '5px'}}>
+                                    <p>Oops! Something went wrong. Please try again or email us directly at info@shemnoc.co.za.</p>
+                                </div>
+                            )}
                         </div>
                     </div>
                     {/* End Contact Page Form*/} 

@@ -1,0 +1,24 @@
+<!-- Hidden forms for Netlify bot detection (Next.js pre-rendering workaround) -->
+<html>
+<head><title>Form Detection</title></head>
+<body>
+  <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+    <input type="text" name="name" />
+    <input type="email" name="email" />
+    <input type="text" name="phone" />
+    <input type="text" name="subject" />
+    <textarea name="message"></textarea>
+  </form>
+
+  <form name="quote-request" netlify netlify-honeypot="bot-field" hidden>
+    <input type="text" name="username" />
+    <input type="email" name="email" />
+    <input type="text" name="phone" />
+    <textarea name="message"></textarea>
+  </form>
+
+  <form name="newsletter" netlify netlify-honeypot="bot-field" hidden>
+    <input type="email" name="email" />
+  </form>
+</body>
+</html>

@@ -7,7 +7,8 @@ import { Swiper, SwiperSlide } from "swiper/react"
 const swiperOptions = {
     modules: [Autoplay, Pagination, Navigation],
     slidesPerView: 1,
-    spaceBetween: 0,
+    spaceBetween: 30,
+    speed: 1000,
     
     loop: true,
     autoplay: {
@@ -23,7 +24,7 @@ const swiperOptions = {
 
     // Pagination
     pagination: {
-        el: '.swiper-pagination',
+        el: '.team-pagination',
         clickable: true,
     },
     breakpoints: {
@@ -213,7 +214,7 @@ export default function Team() {
                                     {/* End Swiper Slide*/} 
                                     </SwiperSlide>
                                 </Swiper>
-                                <div className="swiper-pagination"></div>
+                                <div className="team-pagination swiper-pagination"></div>
                             </div>
                         </div>
                     </div>

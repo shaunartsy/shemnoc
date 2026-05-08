@@ -146,12 +146,22 @@ Faq One
 
 .faq-one-accrodion .accrodion-content {
     position: relative;
-    display: block;
-    padding: 0px 30px 22px;
-    display: none;
+    padding: 0px 30px 0px;
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 0.4s ease-out, padding 0.4s ease-out;
 }
 .faq-one-accrodion .active .accrodion-content {
-    display: block;
+    grid-template-rows: 1fr;
+    padding: 0px 30px 22px;
+}
+.faq-one-accrodion .accrodion-content .inner {
+    overflow: hidden;
+    opacity: 0;
+    transition: opacity 0.4s ease-out;
+}
+.faq-one-accrodion .active .accrodion-content .inner {
+    opacity: 1;
 }
 
 .faq-one-accrodion .accrodion-content p {

@@ -1,6 +1,5 @@
 'use client'
 import Link from "next/link"
-import CounterUp from "@/components/elements/CounterUp"
 export default function About() {
     return (
         <>
@@ -15,15 +14,7 @@ export default function About() {
                         data-wow-duration="1500ms">
                         <div className="about-one__counter">
                             <ul className="about-one__counter-box">
-                                <li>
-                                    <div className="count-box">
-                                        <h2>4–9</h2>
-                                        <span className="k">%</span>
-                                    </div>
-                                    <div className="text">
-                                        <p>Service Fee</p>
-                                    </div>
-                                </li>
+
 
                                 <li>
                                     <div className="count-box">

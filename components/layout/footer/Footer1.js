@@ -1,6 +1,33 @@
+'use client'
+import { useState } from 'react'
 import Link from "next/link"
 
 export default function Footer1() {
+    const [subStatus, setSubStatus] = useState(null)
+
+    const handleSubscribe = async (e) => {
+        e.preventDefault()
+        const form = e.target
+        const formData = new FormData(form)
+
+        try {
+            const response = await fetch('/__forms.html', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                body: new URLSearchParams(formData).toString(),
+            })
+
+            if (response.ok) {
+                setSubStatus('success')
+                form.reset()
+            } else {
+                setSubStatus('error')
+            }
+        } catch (error) {
+            setSubStatus('error')
+        }
+    }
+
     return (
         <>
            
@@ -17,9 +44,18 @@ export default function Footer1() {
                         </div>
 
                         <div className="site-footer__subscribe-form">
-                            <form className="subscribe-form" action="#">
-                                <input type="email" name="email" placeholder="Enter Your Email"/>
-                                <button type="submit" className="thm-btn">Sign up
+                            <form
+                                className="subscribe-form"
+                                name="newsletter"
+                                method="POST"
+                                data-netlify="true"
+                                netlify-honeypot="bot-field"
+                                onSubmit={handleSubscribe}
+                            >
+                                <input type="hidden" name="form-name" value="newsletter" />
+                                <input type="hidden" name="bot-field" />
+                                <input type="email" name="email" placeholder="Enter Your Email" required/>
+                                <button type="submit" className="thm-btn">{subStatus === 'success' ? '✓ Subscribed' : 'Sign up'}
                                     <span className="hover-btn hover-bx"></span>
                                     <span className="hover-btn hover-bx2"></span>
                                     <span className="hover-btn hover-bx3"></span>
@@ -205,13 +241,13 @@ export default function Footer1() {
                         <div className="col-xl-12">
                             <div className="site-footer__bottom-inner">
                                 <div className="site-footer__copyright">
-                                    <p>Copyright@ 2025 <Link href="/">SHEMNOC</Link>. All Rights Reserved.</p>
+                                    <p>Copyright@ 2026 <Link href="/">SHEMNOC</Link>. All Rights Reserved.</p>
                                 </div>
 
                                 <ul className="site-footer__bottom-menu">
-                                    <li><Link href="about">Setting & Privacy </Link></li>
-                                    <li><Link href="faq">FAQ</Link></li>
-                                    <li><Link href="contact">Support</Link></li>
+                                    <li><Link href="/settings-privacy">Setting & Privacy </Link></li>
+                                    <li><Link href="/faq">FAQ</Link></li>
+                                    <li><Link href="/support">Support</Link></li>
                                 </ul>
 
                             </div>

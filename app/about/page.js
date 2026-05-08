@@ -48,7 +48,7 @@ export default function Home() {
                                         <ul>
                                             <li>
                                                 <div className="icon-box">
-                                                    <span className="icon-target"></span>
+                                                    <span className="icon-verified"></span>
                                                 </div>
                                                 <div className="title-box">
                                                     <h3>Mission</h3>
@@ -63,7 +63,7 @@ export default function Home() {
                                         <ul>
                                             <li>
                                                 <div className="icon-box">
-                                                    <span className="icon-vision"></span>
+                                                    <span className="icon-view"></span>
                                                 </div>
                                                 <div className="title-box">
                                                     <h3>Vision</h3>

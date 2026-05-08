@@ -5,13 +5,77 @@ import 'swiper/css'
 import "swiper/css/pagination"
 import 'swiper/css/free-mode';
 import { publicSans, exo } from '@/lib/font'
+
+const SITE_URL = 'https://www.shemnoc.co.za'
+
 export const metadata = {
-    title: 'SHEMNOC | Construction Project Management',
-    description: 'SHEMNOC is a construction project management company that provides end-to-end solutions for clients who wish to bring their building and infrastructure projects to life — efficiently, effectively, and within budget.',
+    metadataBase: new URL(SITE_URL),
+    title: {
+        default: 'SHEMNOC | Construction Project Management in South Africa',
+        template: '%s | SHEMNOC',
+    },
+    description: 'SHEMNOC is a construction project management company providing end-to-end solutions for residential, commercial, and civil projects across South Africa — efficiently, effectively, and within budget.',
+    keywords: [
+        'construction project management',
+        'project management South Africa',
+        'construction management Johannesburg',
+        'quantity surveying',
+        'building project manager',
+        'NHBRC registration',
+        'construction supervision',
+        'BOQ cost estimates',
+        'Sandton construction',
+        'Gauteng project management',
+        'SHEMNOC',
+    ],
+    authors: [{ name: 'SHEMNOC (Pty) Ltd' }],
+    creator: 'SHEMNOC (Pty) Ltd',
+    publisher: 'SHEMNOC (Pty) Ltd',
     icons: {
         icon: '/favicon.ico',
-        apple: '/favicon.ico',
-    }
+        apple: '/assets/images/favicons/apple-touch-icon.png',
+        other: [
+            { rel: 'icon', type: 'image/png', sizes: '32x32', url: '/assets/images/favicons/favicon-32x32.png' },
+            { rel: 'icon', type: 'image/png', sizes: '16x16', url: '/assets/images/favicons/favicon-16x16.png' },
+        ],
+    },
+    manifest: '/assets/images/favicons/site.webmanifest',
+    openGraph: {
+        type: 'website',
+        locale: 'en_ZA',
+        url: SITE_URL,
+        siteName: 'SHEMNOC',
+        title: 'SHEMNOC | Construction Project Management in South Africa',
+        description: 'End-to-end construction project management for residential, commercial, and civil projects across South Africa. Managing projects with excellence.',
+        images: [
+            {
+                url: '/assets/images/resources/logo-1.png',
+                width: 300,
+                height: 100,
+                alt: 'SHEMNOC Construction Project Management',
+            },
+        ],
+    },
+    twitter: {
+        card: 'summary_large_image',
+        title: 'SHEMNOC | Construction Project Management',
+        description: 'End-to-end construction project management across South Africa. Planning, implementation, and closeout — managed with excellence.',
+        images: ['/assets/images/resources/logo-1.png'],
+    },
+    robots: {
+        index: true,
+        follow: true,
+        googleBot: {
+            index: true,
+            follow: true,
+            'max-video-preview': -1,
+            'max-image-preview': 'large',
+            'max-snippet': -1,
+        },
+    },
+    alternates: {
+        canonical: SITE_URL,
+    },
 }
 
 export default function RootLayout({ children }) {
