@@ -1,0 +1,75 @@
+'use client'
+import Link from "next/link";
+import { useState } from "react";
+
+const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
+  const [isActive, setIsActive] = useState({
+    status: false,
+    key: "",
+    subMenuKey: "",
+  });
+
+  const handleToggle = (key, subMenuKey = "") => {
+    if (isActive.key === key && isActive.subMenuKey === subMenuKey) {
+      setIsActive({
+        status: false,
+        key: "",
+        subMenuKey: "",
+      });
+    } else {
+      setIsActive({
+        status: true,
+        key,
+        subMenuKey,
+      });
+    }
+  };
+    return (
+        <>
+            <div className="mobile-nav__wrapper">
+                <div className="mobile-nav__overlay mobile-nav__toggler" onClick={handleMobileMenu} ></div>
+                <div className="mobile-nav__content">
+                    <span className="mobile-nav__close mobile-nav__toggler" onClick={handleMobileMenu} ><i className="fa fa-times"></i></span>
+
+                    <div className="logo-box">
+                        <Link href="/" aria-label="logo image"><img src="assets/images/resources/logo-1.png" width="150" alt="" /></Link>
+                    </div>
+
+                    <div className="mobile-nav__container">
+                        <div className="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
+                            <ul className="main-menu__list">
+                                <li><Link href="/">Home</Link></li>
+                                <li><Link href="/about">About</Link></li>
+                                <li><Link href="/services">Services</Link></li>
+                                <li><Link href="/projects">Projects</Link></li>
+                                <li><Link href="/contact">Contact</Link></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <ul className="mobile-nav__contact list-unstyled">
+                        <li>
+                            <i className="fa fa-envelope"></i>
+                            <Link href="mailto:info@shemnoc.co.za">info@shemnoc.co.za</Link>
+                        </li>
+                        <li>
+                            <i className="fa fa-phone-alt"></i>
+                            <Link href="tel:+27649857455">+27 64 985 7455</Link>
+                        </li>
+                    </ul>
+                    <div className="mobile-nav__top">
+                        <div className="mobile-nav__social">
+                            <Link href="https://facebook.com/shemnoc" className="fab fa-facebook-square"></Link>
+                            <Link href="https://x.com/shemnoc_pm" className="fab fa-twitter"></Link>
+                            <Link href="https://linkedin.com/company/shemnoc" className="fab fa-linkedin"></Link>
+                            <Link href="https://instagram.com/shemnoc_pm" className="fab fa-instagram"></Link>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+          
+
+        </>
+    )
+}
+export default MobileMenu;
