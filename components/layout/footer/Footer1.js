@@ -67,7 +67,7 @@ export default function Footer1() {
                         <div className="site-footer__social-links">
                             <Link href="https://facebook.com/shemnoc"><span className="icon-facebook-app-symbol"></span></Link>
                             <Link href="https://x.com/shemnoc_pm"><span className="icon-twitter1"></span></Link>
-                            <Link href="https://linkedin.com/company/shemnoc"><span className="icon-linkedin-big-logo"></span></Link>
+                            <Link href="https://www.linkedin.com/company/shemnocprojectmanagement"><span className="icon-linkedin-big-logo"></span></Link>
                             <Link href="https://instagram.com/shemnoc_pm"><span className="icon-instagram"></span></Link>
                         </div>
                     </div>
@@ -126,7 +126,7 @@ export default function Footer1() {
                                         </div>
 
                                         <div className="text-box">
-                                            <p>Katherine Street, Sandton <br/> Johannesburg, 2196</p>
+                                            <p>4 Fouriesburg Road <br/> Centurion</p>
                                         </div>
                                     </li>
 

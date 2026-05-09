@@ -54,17 +54,6 @@ export default function Faq() {
                                     </div>
                                 </div>
 
-                                <div className={isActive.key == 2 ? "accrodion active" : "accrodion"} onClick={() => handleToggle(2)}>
-                                    <div className="accrodion-title">
-                                        <h4>Do you handle the money?</h4>
-                                    </div>
-
-                                    <div className="accrodion-content">
-                                        <div className="inner">
-                                            <p>No. All payments to suppliers and contractors flow directly from you. We manage the project — we don't hold your funds. Full financial transparency is a core principle.</p>
-                                        </div>
-                                    </div>
-                                </div>
 
                                 <div className={isActive.key == 3 ? "accrodion active" : "accrodion"} onClick={() => handleToggle(3)}>
                                     <div className="accrodion-title">

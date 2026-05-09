@@ -14,13 +14,12 @@
 | **Website** | www.shemnoc.co.za |
 | **Tagline** | Managing Projects With Excellence |
 | **Secondary Tagline** | "Managing projects from planning to completion, within quality and budget" |
-| **Service Fee** | 4%–9% of total project cost |
-| **Payment Structure** | 50% deposit → 25% at 70% completion → 25% at final sign-off |
+
 
 ### Social Media (Placeholder Links)
 | Platform | URL |
 |----------|-----|
-| LinkedIn | `https://linkedin.com/company/shemnoc` |
+| LinkedIn | `https://www.linkedin.com/company/shemnocprojectmanagement` |
 | Facebook | `https://facebook.com/shemnoc` |
 | Instagram | `https://instagram.com/shemnoc_pm` |
 | X/Twitter | `https://x.com/shemnoc_pm` |
@@ -44,7 +43,7 @@
 ## Placeholder Address
 
 > [!NOTE]
-> Using **Katherine Street, Sandton, Johannesburg, 2196, Gauteng, South Africa** as the placeholder office address. This can be updated to the real address when available.
+> Using **4 Fouriesburg Road, Centurion, Gauteng, South Africa** as the placeholder office address. This can be updated to the real address when available.
 
 ---
 
@@ -80,7 +79,7 @@
 **Stats Bar:**
 | Stat | Label |
 |------|-------|
-| 4–9% | Service Fee |
+
 | 360° | Project Management |
 | 1× | Point of Contact |
 | 100% | Transparency |
@@ -123,7 +122,7 @@
 |---|-------|-------------|
 | 1 | **Comprehensive Expertise** | Our team combines project management, construction supervision, and quantity surveying expertise under one roof. |
 | 2 | **Single Point of Contact** | We coordinate all contractors and suppliers — saving you time and stress. One call covers everything. |
-| 3 | **Full Transparency** | Clients retain financial control with direct payments to contractors. We manage — we never hold your funds. |
+
 | 4 | **Quality Assurance** | We uphold industry best practices and standards from start to finish, with regular site visits and precise reporting. |
 | 5 | **Customised Solutions** | Every project is tailored to suit your unique vision, budget, and schedule — no cookie-cutter approaches. |
 
@@ -173,9 +172,7 @@
 | Question | Answer |
 |----------|--------|
 | What does a construction project manager do? | A project manager oversees your entire build — from planning and budgeting to contractor coordination and final handover. SHEMNOC acts as your single point of contact so you don't have to manage multiple parties. |
-| How much does SHEMNOC charge? | Our management fee ranges from 4–9% of total project cost, depending on scope, complexity, location, and risk. We provide a detailed fee proposal after the initial consultation. |
-| How does the payment structure work? | 50% deposit upon commencement, 25% upon reaching 70% project completion, and the final 25% upon completion and sign-off. A formal SLA is signed before project start. |
-| Do you handle the money? | No. All payments to suppliers and contractors flow directly from you. We manage the project — we don't hold your funds. Full financial transparency is a core principle. |
+
 | What types of projects do you manage? | We manage residential builds, commercial developments, renovations, extensions, and civil infrastructure projects across South Africa. |
 | What software tools do you use? | We use industry-leading tools including MS Projects, Build Smart, CCS Candy, Primavera, ZOHO, and Smartsheet for planning, tracking, and reporting. |
 
@@ -247,7 +244,7 @@ MS Projects | Build Smart | CCS Candy | Primavera | ZOHO | Smartsheet
 | Phone | +27 64 985 7455 |
 | Email | info@shemnoc.co.za |
 | Website | www.shemnoc.co.za |
-| Region | Katherine Street, Sandton, Johannesburg, 2196 |
+| Region | 4 Fouriesburg Road, Centurion |
 | Hours | Mon–Fri: 08:00 – 17:00 |
 
 ---

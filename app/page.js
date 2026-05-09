@@ -19,16 +19,16 @@ const jsonLd = {
     email: 'info@shemnoc.co.za',
     address: {
         '@type': 'PostalAddress',
-        streetAddress: 'Katherine Street',
-        addressLocality: 'Sandton',
+        streetAddress: '4 Fouriesburg Road',
+        addressLocality: 'Centurion',
         addressRegion: 'Gauteng',
-        postalCode: '2196',
+        postalCode: '0157',
         addressCountry: 'ZA',
     },
     geo: {
         '@type': 'GeoCoordinates',
-        latitude: -26.1076,
-        longitude: 28.0567,
+        latitude: -25.8640,
+        longitude: 28.1658,
     },
     openingHoursSpecification: {
         '@type': 'OpeningHoursSpecification',
@@ -38,11 +38,10 @@ const jsonLd = {
     },
     sameAs: [
         'https://facebook.com/shemnoc',
-        'https://linkedin.com/company/shemnoc',
+        'https://www.linkedin.com/company/shemnocprojectmanagement',
         'https://instagram.com/shemnoc_pm',
         'https://x.com/shemnoc_pm',
     ],
-    priceRange: '4%–9% of project cost',
     areaServed: {
         '@type': 'Country',
         name: 'South Africa',

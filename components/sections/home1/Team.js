@@ -148,30 +148,6 @@ export default function Team() {
                                             <div className="team-one__right-single-inner" style={{paddingTop: '60px', paddingBottom: '120px', paddingLeft: '30px', paddingRight: '30px'}}>
 
                                                 <div className="author-box">
-                                                    <h2>Full Transparency</h2>
-                                                </div>
-
-                                                <div className="text-box">
-                                                    <p>Clients retain financial control with direct payments to contractors. We manage — we never hold your funds.</p>
-                                                </div>
-
-                                            </div>
-                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-                                                <path fill="#4195C3" opacity="1"
-                                                    d="M0,64L26.7,74.7C53.3,85,107,107,160,117.3C213.3,128,267,128,320,138.7C373.3,149,427,171,480,154.7C533.3,139,587,85,640,74.7C693.3,64,747,96,800,101.3C853.3,107,907,85,960,69.3C1013.3,53,1067,43,1120,64C1173.3,85,1227,139,1280,160C1333.3,181,1387,171,1413,165.3L1440,160L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z">
-                                                </path>
-                                            </svg>
-                                        </div>
-                                    </div>
-                                    {/* End Swiper Slide*/} 
-                                    </SwiperSlide>
-                                    <SwiperSlide>
-                                    {/* Start Swiper Slide*/} 
-                                    <div className="swiper-slide">
-                                        <div className="team-one__right-single text-center">
-                                            <div className="team-one__right-single-inner" style={{paddingTop: '60px', paddingBottom: '120px', paddingLeft: '30px', paddingRight: '30px'}}>
-
-                                                <div className="author-box">
                                                     <h2>Quality Assurance</h2>
                                                 </div>
 

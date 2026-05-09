@@ -84,7 +84,7 @@ export default function Home() {
 
                                             <div className="content-box">
                                                 <h3>Our Address</h3>
-                                                <p>Katherine Street, Sandton <br/> Johannesburg, 2196</p>
+                                                <p>4 Fouriesburg Road <br/> Centurion</p>
                                             </div>
                                         </div>
                                     </div>
@@ -116,7 +116,7 @@ export default function Home() {
                                     <ul>
                                         <li><Link href="https://facebook.com/shemnoc"><span className="icon-facebook"></span></Link></li>
                                         <li><Link href="https://x.com/shemnoc_pm"><span className="icon-twitter1"></span></Link></li>
-                                        <li><Link href="https://linkedin.com/company/shemnoc"><span className="icon-linkedin-big-logo"></span></Link></li>
+                                        <li><Link href="https://www.linkedin.com/company/shemnocprojectmanagement"><span className="icon-linkedin-big-logo"></span></Link></li>
                                         <li><Link href="https://instagram.com/shemnoc_pm"><span className="icon-instagram"></span></Link></li>
                                     </ul>
                                 </div>
@@ -220,7 +220,7 @@ export default function Home() {
         {/* Start Google Map One*/} 
         <section className="google-map-one">
             <iframe
-                src="https://maps.google.com/maps?q=Katherine%20Street,%20Sandton,%20Johannesburg,%202196&t=&z=14&ie=UTF8&iwloc=&output=embed"
+                src="https://maps.google.com/maps?q=4%20Fouriesburg%20Road,%20Centurion&t=&z=14&ie=UTF8&iwloc=&output=embed"
                 className="google-map-one__map">
             </iframe>
         </section>

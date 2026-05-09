@@ -60,7 +60,7 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                         <div className="mobile-nav__social">
                             <Link href="https://facebook.com/shemnoc" className="fab fa-facebook-square"></Link>
                             <Link href="https://x.com/shemnoc_pm" className="fab fa-twitter"></Link>
-                            <Link href="https://linkedin.com/company/shemnoc" className="fab fa-linkedin"></Link>
+                            <Link href="https://www.linkedin.com/company/shemnocprojectmanagement" className="fab fa-linkedin"></Link>
                             <Link href="https://instagram.com/shemnoc_pm" className="fab fa-instagram"></Link>
                         </div>
                     </div>

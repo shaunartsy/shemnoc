@@ -57,8 +57,8 @@ export default function Appoinment() {
                                             </div>
                                             <div className="content-box">
                                                 <h2>Location</h2>
-                                                <p>Katherine Street, Sandton,</p>
-                                                <p>Johannesburg, 2196</p>
+                                                <p>4 Fouriesburg Road,</p>
+                                                <p>Centurion</p>
                                             </div>
                                         </div>
                                     </li>
