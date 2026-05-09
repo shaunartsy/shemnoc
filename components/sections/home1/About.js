@@ -80,7 +80,7 @@ export default function About() {
                             </div>
 
                             <div className="about-one__content-text">
-                                <p>SHEMNOC is a construction project management company that provides end-to-end solutions for clients who wish to bring their building and infrastructure projects to life — efficiently, effectively, and within budget. Our team consists of seasoned Project Managers, Quantity Surveyors, and Construction Experts with vast industry experience.</p>
+                                <p>SHEMNOC is a construction project management company that provides end-to-end solutions for clients who wish to bring their building and infrastructure projects to life — efficiently, effectively, and within budget. Our team consists of seasoned Project Managers, Civil Engineers, and Quantity Surveyors with vast industry experience.</p>
                             </div>
 
                             <div className="about-one__content-text2">

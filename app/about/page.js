@@ -39,7 +39,7 @@ export default function Home() {
                                 <br/>
                                 <p>Whether you are embarking on a residential, commercial, or civil construction project, SHEMNOC offers a complete suite of project management and consulting services, ensuring your project is delivered to the highest standards of quality, cost-efficiency, and time management.</p>
                                 <br/>
-                                <p>Our team consists of seasoned Project Managers, Quantity Surveyors, and Construction Experts with vast industry experience in planning, construction monitoring, and closeout of projects of various sizes and complexities. At SHEMNOC, we understand that managing a construction project can be stressful and time-consuming. That's why we offer our clients a single point of contact — so you can focus on your life or business while we handle all the details, communication, and coordination with contractors, suppliers, and consultants.</p>
+                                <p>Our team consists of seasoned Project Managers, Civil Engineers, and Quantity Surveyors with vast industry experience in planning, construction monitoring, and closeout of projects of various sizes and complexities. At SHEMNOC, we understand that managing a construction project can be stressful and time-consuming. That's why we offer our clients a single point of contact — so you can focus on your life or business while we handle all the details, communication, and coordination with contractors, suppliers, and consultants.</p>
                             </div>
 
                             <div className="row mt-5">
