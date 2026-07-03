@@ -48,12 +48,8 @@ export default function Footer1() {
                                 className="subscribe-form"
                                 name="newsletter"
                                 method="POST"
-                                data-netlify="true"
-                                netlify-honeypot="bot-field"
                                 onSubmit={handleSubscribe}
                             >
-                                <input type="hidden" name="form-name" value="newsletter" />
-                                <input type="hidden" name="bot-field" />
                                 <input type="email" name="email" placeholder="Enter Your Email" required/>
                                 <button type="submit" className="thm-btn">{subStatus === 'success' ? '✓ Subscribed' : 'Sign up'}
                                     <span className="hover-btn hover-bx"></span>

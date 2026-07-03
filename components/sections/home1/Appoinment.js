@@ -103,12 +103,8 @@ export default function Appoinment() {
                             <form
                                 name="quote-request"
                                 method="POST"
-                                data-netlify="true"
-                                netlify-honeypot="bot-field"
                                 onSubmit={handleSubmit}
                             >
-                                <input type="hidden" name="form-name" value="quote-request" />
-                                <p hidden><label>Don't fill this out: <input name="bot-field" /></label></p>
                                 <div className="form-group">
                                     <input type="text" name="username" placeholder="Your Name" required=""/>
                                 </div>

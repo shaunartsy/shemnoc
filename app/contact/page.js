@@ -134,13 +134,9 @@ export default function Home() {
                             <form
                                 name="contact"
                                 method="POST"
-                                data-netlify="true"
-                                netlify-honeypot="bot-field"
                                 onSubmit={handleSubmit}
                                 className="contact-form-validated contact-page__form-box"
                             >
-                                <input type="hidden" name="form-name" value="contact" />
-                                <p hidden><label>Don't fill this out: <input name="bot-field" /></label></p>
                                 <div className="row">
                                     <div className="col-xl-6 col-lg-6 col-md-6">
                                         <div className="input-box">
