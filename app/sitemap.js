@@ -16,7 +16,7 @@ export default function sitemap() {
 
     return routes.map((route) => ({
         url: `${baseUrl}${route.path}`,
-        lastModified: new Date(),
+        lastModified: '2024-01-01',
         changeFrequency: route.changeFrequency,
         priority: route.priority,
     }))
