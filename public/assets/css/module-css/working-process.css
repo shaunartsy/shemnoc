@@ -71,6 +71,7 @@ Working Process One
     line-height: 40px;
     font-weight: 700;
     transition: all 0.3s ease;
+    text-align: right;
 }
 
 .working-process-one__tab-box .tab-buttons .tab-btn.active-btn h2 {
