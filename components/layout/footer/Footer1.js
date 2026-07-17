@@ -83,10 +83,10 @@ export default function Footer1() {
                                 </div>
 
                                 <ul className="footer-widget__list">
-                                    <li><Link href="/services"><span className="icon-chevron"></span> Project Planning</Link></li>
-                                    <li><Link href="/services"><span className="icon-chevron"></span> Project Implementation</Link></li>
-                                    <li><Link href="/services"><span className="icon-chevron"></span> Project Closeout</Link></li>
-                                    <li><Link href="/services"><span className="icon-chevron"></span> Registration & Compliance</Link></li>
+                                    <li><Link href="/services"><span className="icon-chevron"></span> Building Construction</Link></li>
+                                    <li><Link href="/services"><span className="icon-chevron"></span> Road Construction</Link></li>
+                                    <li><Link href="/services"><span className="icon-chevron"></span> Land Development</Link></li>
+                                    <li><Link href="/services"><span className="icon-chevron"></span> Project Management</Link></li>
                                 </ul>
                             </div>
                         </div>

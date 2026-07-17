@@ -188,7 +188,7 @@ export default function Testimonial() {
                                 {/* Start Testimonial One Single*/} 
                                 <div className="testimonial-one__single">
                                     <div className="testimonial-one__single-text">
-                                        <p>"From the initial consultation through to the final handover, SHEMNOC's professionalism was outstanding. Their team managed our commercial renovation with military precision — the kind of project management you want on your side."</p>
+                                        <p>"From the initial consultation through to the final handover, SHEMNOC's professionalism was outstanding. Their team managed our commercial renovation with military precision — the kind of construction partner you want on your side."</p>
                                     </div>
 
                                     <div className="testimonial-one__single-author">

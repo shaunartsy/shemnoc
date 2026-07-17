@@ -17,7 +17,7 @@ export default function SettingsPrivacyPage() {
                                 <p>We collect information you provide directly to us when you request a quote, fill out a contact form, or communicate with us. This may include your name, email address, phone number, and project details.</p>
                                 <br/>
                                 <h4 style={{fontSize: '24px', marginBottom: '10px'}}>2. Use of Information</h4>
-                                <p>The information we collect is used to provide, maintain, and improve our services, respond to your inquiries, send you project updates, and communicate with you about your construction management needs.</p>
+                                <p>The information we collect is used to provide, maintain, and improve our services, respond to your inquiries, send you project updates, and communicate with you about your construction and infrastructure development needs.</p>
                                 <br/>
                                 <h4 style={{fontSize: '24px', marginBottom: '10px'}}>3. Information Sharing</h4>
                                 <p>We do not share your personal information with third parties except as necessary to provide our services (such as coordinating with contractors or suppliers for your project), comply with legal obligations, or protect our rights.</p>

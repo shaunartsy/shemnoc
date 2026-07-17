@@ -31,15 +31,15 @@ export default function Home() {
                                         <h4>About us</h4>
                                     </div>
                                 </div>
-                                <h2 className="sec-title__title tg-element-title">End-To-End <br/> Project Management</h2>
+                                <h2 className="sec-title__title tg-element-title">Construction & <br/> Infrastructure Development</h2>
                             </div>
 
                             <div className="about-two__middle-text">
-                                <p>SHEMNOC is a construction project management company that provides end-to-end solutions for clients who wish to bring their building and infrastructure projects to life — efficiently, effectively, and within budget.</p>
+                                <p>SHEMNOC (Pty) Ltd is a proudly South African construction and infrastructure development company committed to delivering innovative, high-quality, and sustainable engineering solutions. With a strong focus on excellence, professionalism, and customer satisfaction, we have established ourselves as a reliable partner in the construction industry.</p>
                                 <br/>
-                                <p>Whether you are embarking on a residential, commercial, or civil construction project, SHEMNOC offers a complete suite of project management and consulting services, ensuring your project is delivered to the highest standards of quality, cost-efficiency, and time management.</p>
+                                <p>Our business is driven by experienced engineers, qualified project managers, and skilled construction professionals who are passionate about delivering projects safely, on time, within budget, and to the highest quality standards.</p>
                                 <br/>
-                                <p>Our team consists of seasoned Project Managers, Civil Engineers, and Quantity Surveyors with vast industry experience in planning, construction monitoring, and closeout of projects of various sizes and complexities. At SHEMNOC, we understand that managing a construction project can be stressful and time-consuming. That's why we offer our clients a single point of contact — so you can focus on your life or business while we handle all the details, communication, and coordination with contractors, suppliers, and consultants.</p>
+                                <p>Whether undertaking residential developments, commercial infrastructure, civil engineering projects, or project management assignments, SHEMNOC combines technical expertise with practical experience to deliver outstanding results while building long-term relationships with clients.</p>
                             </div>
 
                             <div className="row mt-5">
@@ -52,7 +52,7 @@ export default function Home() {
                                                 </div>
                                                 <div className="title-box">
                                                     <h3>Mission</h3>
-                                                    <p style={{marginTop: '10px'}}>To provide reliable, professional, and transparent project management services that transform our clients' ideas into high-quality, cost-effective, and timely completed projects.</p>
+                                                    <p style={{marginTop: '10px'}}>Our mission is to provide quality construction and engineering services that exceed client expectations through professional project execution, skilled workmanship, innovative solutions, and uncompromising safety and quality standards.</p>
                                                 </div>
                                             </li>
                                         </ul>
@@ -67,7 +67,7 @@ export default function Home() {
                                                 </div>
                                                 <div className="title-box">
                                                     <h3>Vision</h3>
-                                                    <p style={{marginTop: '10px'}}>To become one of South Africa's most trusted and preferred project management companies — recognized for delivering excellence, maintaining quality, and achieving client satisfaction in every project we undertake.</p>
+                                                    <p style={{marginTop: '10px'}}>To become one of South Africa's leading construction and infrastructure development companies, recognised for excellence, innovation, integrity, and sustainable project delivery.</p>
                                                 </div>
                                             </li>
                                         </ul>

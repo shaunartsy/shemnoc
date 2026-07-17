@@ -13,7 +13,7 @@ const jsonLd = {
     '@type': 'ProfessionalService',
     name: 'SHEMNOC (Pty) Ltd',
     alternateName: 'SHEMNOC',
-    description: 'Construction project management company providing end-to-end solutions for residential, commercial, and civil projects across South Africa.',
+    description: 'SHEMNOC is a fully fledged construction and infrastructure development company delivering innovative, high-quality, and sustainable engineering solutions.',
     url: 'https://www.shemnoc.co.za',
     telephone: '+27649857455',
     email: 'info@shemnoc.co.za',
@@ -47,11 +47,11 @@ const jsonLd = {
         name: 'South Africa',
     },
     serviceType: [
-        'Construction Project Management',
-        'Quantity Surveying',
-        'Construction Supervision',
-        'NHBRC Registration',
-        'Project Planning & Consulting',
+        'Building Construction',
+        'Road Construction',
+        'Land Development',
+        'Project Management',
+        'Valuation Services',
     ],
 }
 

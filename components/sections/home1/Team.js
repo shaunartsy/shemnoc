@@ -104,7 +104,7 @@ export default function Team() {
                                                 </div>
 
                                                 <div className="text-box">
-                                                    <p>Our team combines project management, construction supervision, and quantity surveying expertise under one roof.</p>
+                                                    <p>Our team combines engineering, construction supervision, and quantity surveying expertise under one roof.</p>
                                                 </div>
 
                                             </div>

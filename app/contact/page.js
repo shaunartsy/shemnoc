@@ -161,7 +161,7 @@ export default function Home() {
                                             <div className="select-box">
                                                 <select className="selectmenu wide" name="subject">
                                                     <option>Subject</option>
-                                                    <option>Project Management Inquiry</option>
+                                                    <option>Construction Inquiry</option>
                                                     <option>Construction Supervision</option>
                                                     <option>Quantity Surveying</option>
                                                     <option>Registration &amp; Compliance</option>

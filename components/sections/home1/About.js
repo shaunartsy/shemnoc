@@ -22,7 +22,7 @@ export default function About() {
                                         <span>°</span>
                                     </div>
                                     <div className="text">
-                                        <p>Project Management</p>
+                                        <p>Turnkey Solutions</p>
                                     </div>
                                 </li>
 
@@ -80,7 +80,7 @@ export default function About() {
                             </div>
 
                             <div className="about-one__content-text">
-                                <p>SHEMNOC is a construction project management company that provides end-to-end solutions for clients who wish to bring their building and infrastructure projects to life — efficiently, effectively, and within budget. Our team consists of seasoned Project Managers, Civil Engineers, and Quantity Surveyors with vast industry experience.</p>
+                                <p>SHEMNOC is a fully fledged construction and infrastructure development company committed to delivering innovative, high-quality, and sustainable engineering solutions. We combine technical expertise with practical experience to deliver turnkey projects safely, on time, and within budget.</p>
                             </div>
 
                             <div className="about-one__content-text2">

@@ -45,14 +45,14 @@ export default function Banner() {
                     <div className="container">
                         <div className="main-slider-one__content">
                             <div className="tagline">
-                                <span>Construction Project Management</span>
+                                <span>Construction & Infrastructure Development</span>
                             </div>
                             <div className="title-box">
                                 <h2>Managing Projects <br/> With Excellence</h2>
                             </div>
 
                             <div className="text-box">
-                                <p>End-to-end project management for residential, commercial,<br/> and civil construction across South Africa.</p>
+                                <p>Delivering innovative, high-quality, and sustainable engineering<br/> and construction solutions across South Africa.</p>
                             </div>
 
                             <div className="main-slider-one__single-btn">

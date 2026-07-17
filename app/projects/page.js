@@ -18,7 +18,7 @@ export default function Home() {
                                         style={{ backgroundImage: ' url(assets/images/project/portfolio-v1-img1.jpg)' }}></div>
                                     <div className="portfolio-one__single-content">
                                         <div className="text-box">
-                                            <p>Project Management</p>
+                                            <p>Construction</p>
                                             <h3>Residential Development, Sandton</h3>
                                         </div>
                                         <div className="btn-box">
@@ -66,7 +66,7 @@ export default function Home() {
                                         style={{ backgroundImage: ' url(assets/images/project/portfolio-v1-img4.jpg)' }}></div>
                                     <div className="portfolio-one__single-content">
                                         <div className="text-box">
-                                            <p>Project Management</p>
+                                            <p>Infrastructure</p>
                                             <h3>Retail Renovation, Rosebank</h3>
                                         </div>
                                         <div className="btn-box">
@@ -120,7 +120,7 @@ export default function Home() {
                                         style={{ backgroundImage: ' url(assets/images/project/portfolio-v1-img7.jpg)' }}></div>
                                     <div className="portfolio-one__single-content">
                                         <div className="text-box">
-                                            <p>Project Management</p>
+                                            <p>Construction</p>
                                             <h3>Industrial Warehouse, Kempton Park</h3>
                                         </div>
                                         <div className="btn-box">

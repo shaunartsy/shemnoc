@@ -11,13 +11,13 @@ const SITE_URL = 'https://www.shemnoc.co.za'
 export const metadata = {
     metadataBase: new URL(SITE_URL),
     title: {
-        default: 'SHEMNOC | Construction Project Management in South Africa',
+        default: 'SHEMNOC | Construction and Infrastructure Development in South Africa',
         template: '%s | SHEMNOC',
     },
-    description: 'SHEMNOC is a construction project management company providing end-to-end solutions for residential, commercial, and civil projects across South Africa — efficiently, effectively, and within budget.',
+    description: 'SHEMNOC is a proudly South African construction and infrastructure development company delivering innovative, high-quality, and sustainable engineering solutions.',
     keywords: [
-        'construction project management',
-        'project management South Africa',
+        'construction and infrastructure development',
+        'construction company South Africa',
         'construction management Johannesburg',
         'quantity surveying',
         'building project manager',
@@ -45,21 +45,21 @@ export const metadata = {
         locale: 'en_ZA',
         url: SITE_URL,
         siteName: 'SHEMNOC',
-        title: 'SHEMNOC | Construction Project Management in South Africa',
-        description: 'End-to-end construction project management for residential, commercial, and civil projects across South Africa. Managing projects with excellence.',
+        title: 'SHEMNOC | Construction and Infrastructure Development in South Africa',
+        description: 'SHEMNOC is a proudly South African construction and infrastructure development company delivering innovative, high-quality, and sustainable engineering solutions.',
         images: [
             {
                 url: '/assets/images/resources/logo-1.png',
                 width: 300,
                 height: 100,
-                alt: 'SHEMNOC Construction Project Management',
+                alt: 'SHEMNOC Construction and Infrastructure Development',
             },
         ],
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'SHEMNOC | Construction Project Management',
-        description: 'End-to-end construction project management across South Africa. Planning, implementation, and closeout — managed with excellence.',
+        title: 'SHEMNOC | Construction and Infrastructure Development',
+        description: 'SHEMNOC is a proudly South African construction and infrastructure development company delivering innovative, high-quality, and sustainable engineering solutions.',
         images: ['/assets/images/resources/logo-1.png'],
     },
     robots: {
@@ -81,7 +81,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
     return (
         <html lang="en" className={`${publicSans.variable} ${exo.variable}`}>
-            <body>{children}</body>
+            <body suppressHydrationWarning>{children}</body>
         </html>
     )
 }

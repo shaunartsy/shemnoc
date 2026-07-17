@@ -1,12 +1,12 @@
 export const metadata = {
     title: 'About Us',
-    description: 'Learn about SHEMNOC — a South African construction project management company providing end-to-end solutions with seasoned Project Managers, Quantity Surveyors, and Construction Experts.',
+    description: 'Learn about SHEMNOC — a proudly South African construction and infrastructure development company delivering innovative, high-quality, and sustainable engineering solutions.',
     alternates: {
         canonical: '/about',
     },
     openGraph: {
-        title: 'About SHEMNOC | Construction Project Management',
-        description: 'Our team of seasoned Project Managers, Quantity Surveyors, and Construction Experts delivers excellence in every project across South Africa.',
+        title: 'About SHEMNOC | Construction and Infrastructure Development',
+        description: 'Our experienced team delivers innovative construction and infrastructure development projects across South Africa safely, on time, and within budget.',
     },
 }
 

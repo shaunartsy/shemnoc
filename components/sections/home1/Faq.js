@@ -44,12 +44,12 @@ export default function Faq() {
                             <div className="accrodion-grp faq-one-accrodion" data-grp-name="faq-one-accrodion-1">
                                 <div className={isActive.key == 1 ? "accrodion active" : "accrodion"} onClick={() => handleToggle(1)}>
                                     <div className="accrodion-title">
-                                        <h4>What does a construction project manager do?</h4>
+                                        <h4>What does a turnkey construction company do?</h4>
                                     </div>
 
                                     <div className="accrodion-content">
                                         <div className="inner">
-                                            <p>A project manager oversees your entire build — from planning and budgeting to contractor coordination and final handover. SHEMNOC acts as your single point of contact so you don't have to manage multiple parties.</p>
+                                            <p>A turnkey construction company oversees your entire project — from planning and budgeting to contractor coordination and final handover. SHEMNOC acts as your single point of contact, ensuring your project is delivered safely, on time, and within budget.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -57,12 +57,12 @@ export default function Faq() {
 
                                 <div className={isActive.key == 3 ? "accrodion active" : "accrodion"} onClick={() => handleToggle(3)}>
                                     <div className="accrodion-title">
-                                        <h4>What types of projects do you manage?</h4>
+                                        <h4>What types of projects do you undertake?</h4>
                                     </div>
 
                                     <div className="accrodion-content">
                                         <div className="inner">
-                                            <p>We manage residential builds, commercial developments, renovations, extensions, and civil infrastructure projects across South Africa.</p>
+                                            <p>We undertake residential builds, commercial developments, civil infrastructure projects, road construction, and land development across South Africa.</p>
                                         </div>
                                     </div>
                                 </div>

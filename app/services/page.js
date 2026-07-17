@@ -9,66 +9,82 @@ export default function Home() {
         <section className="services-one services-one--services">
             <div className="container">
                 <div className="row">
-                    {/* Phase 1 */} 
-                    <div className="col-xl-4 col-lg-6 col-md-12 mb-4">
+                    {/* Service 1 */} 
+                    <div className="col-xl-6 col-lg-6 col-md-12 mb-4">
                         <div className="services-one__single" style={{ height: '100%' }}>
                             <div className="icon-box">
                                 <span className="icon-building"></span>
                             </div>
                             <div className="services-one__single-inner">
                                 <div className="services-one__single-content">
-                                    <h3>Phase 1 — Project Planning & Consulting</h3>
+                                    <h3>Building Construction</h3>
                                     <ul className="mt-3" style={{ listStyleType: 'disc', paddingLeft: '20px', lineHeight: '1.8' }}>
-                                        <li>Face-to-face consultations on project initiation and execution</li>
-                                        <li>Project cost estimates and BOQs</li>
-                                        <li>Wayleave applications and approvals</li>
-                                        <li>Budget estimates and cost planning</li>
-                                        <li>Request for Quotations (RFQs) to sub-contractors (for client approval)</li>
-                                        <li>Supplier comparisons and recommendations</li>
-                                        <li>Final Bill of Materials (BOM) customized for your project</li>
-                                        <li>Detailed project plan with timelines, resources, and cost breakdowns</li>
-                                        <li>Comprehensive final report — ready for project execution</li>
+                                        <li>Site establishment and earthworks</li>
+                                        <li>Foundations and reinforced concrete structures</li>
+                                        <li>Superstructure construction and masonry works</li>
+                                        <li>Roofing, plastering, and painting</li>
+                                        <li>Interior fit-outs and renovations</li>
+                                        <li>Building maintenance for all facilities</li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    {/* Phase 2 */} 
-                    <div className="col-xl-4 col-lg-6 col-md-12 mb-4">
+                    {/* Service 2 */} 
+                    <div className="col-xl-6 col-lg-6 col-md-12 mb-4">
                         <div className="services-one__single" style={{ height: '100%' }}>
                             <div className="icon-box">
                                 <span className="icon-helmet"></span>
                             </div>
                             <div className="services-one__single-inner">
                                 <div className="services-one__single-content">
-                                    <h3>Phase 2 — Project Implementation</h3>
+                                    <h3>Road Construction</h3>
                                     <ul className="mt-3" style={{ listStyleType: 'disc', paddingLeft: '20px', lineHeight: '1.8' }}>
-                                        <li>NHBRC registration</li>
-                                        <li>Council registration and compliance</li>
-                                        <li>Wayleave applications and rezoning (where applicable)</li>
-                                        <li>On-site supervision of suppliers, contractors, and subcontractors</li>
-                                        <li>Procurement and sourcing of materials and equipment</li>
-                                        <li>Quality assurance and timeline control at every stage</li>
-                                        <li>Communication management — one point of contact</li>
-                                        <li>Regular reporting, site visits, and progress updates</li>
+                                        <li>New road construction and rehabilitation</li>
+                                        <li>Road maintenance and asphalt works</li>
+                                        <li>Pavement construction and road surfacing</li>
+                                        <li>Kerbing and sidewalk construction</li>
+                                        <li>Stormwater infrastructure installation</li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    {/* Phase 3 */} 
-                    <div className="col-xl-4 col-lg-6 col-md-12 mb-4">
+                    {/* Service 3 */} 
+                    <div className="col-xl-6 col-lg-6 col-md-12 mb-4">
                         <div className="services-one__single" style={{ height: '100%' }}>
                             <div className="icon-box">
                                 <span className="icon-home"></span>
                             </div>
                             <div className="services-one__single-inner">
                                 <div className="services-one__single-content">
-                                    <h3>Phase 3 — Project Closeout</h3>
+                                    <h3>Land Development</h3>
                                     <ul className="mt-3" style={{ listStyleType: 'disc', paddingLeft: '20px', lineHeight: '1.8' }}>
-                                        <li>Handover of completed works</li>
-                                        <li>Final sign-offs from engineers, boards, and council</li>
-                                        <li>Comprehensive project documentation and filing</li>
+                                        <li>Bulk earthworks and site preparation</li>
+                                        <li>Sewer and water reticulation</li>
+                                        <li>Stormwater drainage systems</li>
+                                        <li>Internal road infrastructure</li>
+                                        <li>Municipal services installation and upgrades</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {/* Service 4 */} 
+                    <div className="col-xl-6 col-lg-6 col-md-12 mb-4">
+                        <div className="services-one__single" style={{ height: '100%' }}>
+                            <div className="icon-box">
+                                <span className="icon-architect"></span>
+                            </div>
+                            <div className="services-one__single-inner">
+                                <div className="services-one__single-content">
+                                    <h3>Project Management</h3>
+                                    <ul className="mt-3" style={{ listStyleType: 'disc', paddingLeft: '20px', lineHeight: '1.8' }}>
+                                        <li>Construction project planning and scheduling</li>
+                                        <li>Cost and procurement management</li>
+                                        <li>Contract administration and quality assurance</li>
+                                        <li>Risk management and site supervision</li>
+                                        <li>Commissioning and close-out</li>
                                     </ul>
                                 </div>
                             </div>

@@ -81,8 +81,8 @@ export default function Service() {
                         </div>
                         <div className="services-one__single-inner">
                             <div className="services-one__single-content">
-                                <h3><Link href="/services">Project Planning & Consulting</Link></h3>
-                                <p>Face-to-face consultations, BOQs, cost estimates, wayleave applications, supplier comparisons, and detailed project plans ready for execution.</p>
+                                <h3><Link href="/services">Building Construction</Link></h3>
+                                <p>Turnkey construction solutions across residential, commercial, and industrial sectors, including earthworks, structures, and interior fit-outs.</p>
                             </div>
                             <div className="services-one__single-img">
                                 <img src="assets/images/services/services-v1-img1.jpg" alt=""/>
@@ -99,8 +99,8 @@ export default function Service() {
                         </div>
                         <div className="services-one__single-inner">
                             <div className="services-one__single-content">
-                                <h3><Link href="/services">Project Implementation</Link></h3>
-                                <p>On-site supervision, procurement management, quality assurance, timeline control, and real-time progress reporting throughout construction.</p>
+                                <h3><Link href="/services">Road Construction</Link></h3>
+                                <p>Comprehensive road construction, rehabilitation, and maintenance, including asphalt works, surfacing, and stormwater infrastructure.</p>
                             </div>
                             <div className="services-one__single-img">
                                 <img src="assets/images/services/services-v1-img2.jpg" alt=""/>
@@ -117,8 +117,8 @@ export default function Service() {
                         </div>
                         <div className="services-one__single-inner">
                             <div className="services-one__single-content">
-                                <h3><Link href="/services">Project Closeout</Link></h3>
-                                <p>Handover of completed works, final sign-offs from engineers, board compliance, council approvals, and comprehensive project documentation.</p>
+                                <h3><Link href="/services">Land Development</Link></h3>
+                                <p>Integrated civil engineering services from bulk earthworks and site preparation to full municipal infrastructure installation.</p>
                             </div>
 
                             <div className="services-one__single-img">
@@ -136,8 +136,8 @@ export default function Service() {
                         </div>
                         <div className="services-one__single-inner">
                             <div className="services-one__single-content">
-                                <h3><Link href="/services">Registration & Compliance</Link></h3>
-                                <p>NHBRC registration, council registration and compliance, wayleave applications, rezoning assistance, and full regulatory navigation.</p>
+                                <h3><Link href="/services">Project Management</Link></h3>
+                                <p>Efficient project delivery maintaining quality, safety, cost control, and comprehensive stakeholder coordination.</p>
                             </div>
                             <div className="services-one__single-img">
                                 <img src="assets/images/services/services-v1-img4.jpg" alt=""/>
