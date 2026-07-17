@@ -86,10 +86,7 @@ export default function About() {
                             <div className="about-one__content-text2">
                                 <ul className="about-one__content-list">
                                     <li>
-                                        <p>Registered QS & PM Professionals</p>
-                                    </li>
-                                    <li>
-                                        <p>Full Financial Transparency</p>
+                                        <p>Registered CPMs, Civil Engineers & QS</p>
                                     </li>
                                     <li>
                                         <p>Single Point of Contact</p>
