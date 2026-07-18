@@ -454,7 +454,7 @@ About Two
 .about-two__middle-text2 ul li {
     position: relative;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .about-two__middle-text2 ul li .icon-box {

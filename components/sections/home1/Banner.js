@@ -48,7 +48,7 @@ export default function Banner() {
                                 <span>Construction & Infrastructure Development</span>
                             </div>
                             <div className="title-box">
-                                <h2>Managing Projects <br/> With Excellence</h2>
+                                <h2>Delivering Projects <br/> With Excellence</h2>
                             </div>
 
                             <div className="text-box">

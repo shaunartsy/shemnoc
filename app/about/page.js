@@ -77,7 +77,7 @@ export default function Home() {
                             
                             <div className="mt-5">
                                 <h4>Our Software & Tools</h4>
-                                <p className="mt-2"><b>MS Projects | Build Smart | CCS Candy | Primavera | ZOHO | Smartsheet</b></p>
+                                <p className="mt-2"><b>AutoCAD | Civil 3D | Revit | CCS Candy | Primavera | MS Projects</b></p>
                             </div>
                         </div>
                     </div>

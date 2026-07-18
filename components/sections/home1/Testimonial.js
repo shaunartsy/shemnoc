@@ -80,22 +80,6 @@ export default function Testimonial() {
                                 <div className="testimonial-one__left-img">
                                     <ul>
                                         <li>
-                                            <div className="img-box">
-                                                <img src="assets/images/testimonial/testimonial-v3-img4.jpg" alt=""/>
-                                            </div>
-                                        </li>
-
-                                        <li>
-                                            <div className="img-box">
-                                                <img src="assets/images/testimonial/testimonial-v3-img5.jpg" alt=""/>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div className="img-box">
-                                                <img src="assets/images/testimonial/testimonial-v3-img6.jpg" alt=""/>
-                                            </div>
-                                        </li>
-                                        <li>
                                             <div className="img-box style2">
                                                 <img src="assets/images/testimonial/testimonial-v3-img1.jpg" alt=""/>
                                                 <div className="icon-box">

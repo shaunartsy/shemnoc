@@ -41,8 +41,8 @@ Working Process One
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 50px;
 }
-
 
 .working-process-one__tab-box .tab-buttons {
     position: relative;

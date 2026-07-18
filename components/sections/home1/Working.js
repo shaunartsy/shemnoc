@@ -48,8 +48,8 @@ export default function Working() {
                                 <div className="working-process-one__single-tab">
                                     <div className="working-process-one__single-tab-inner">
                                         <div className="content-box">
-                                            <h2>Consultation & Feasibility</h2>
-                                            <p>Face-to-face consultations on project initiation. We assess your scope, site conditions, and budget to create a clear roadmap for execution.</p>
+                                            <h2>Site Establishment & Preparation</h2>
+                                            <p>We initiate projects with comprehensive site preparation, bulk earthworks, and foundation setup, ensuring a solid base and safe working environment before main construction begins.</p>
                                         </div>
 
                                         <div className="img-box">
@@ -65,12 +65,12 @@ export default function Working() {
                                 <div className="working-process-one__single-tab">
                                     <div className="working-process-one__single-tab-inner">
                                         <div className="content-box">
-                                            <h2>Planning & Documentation</h2>
-                                            <p>BOQs, wayleave applications, NHBRC and council registration, RFQs to sub-contractors, supplier comparisons, and a detailed project plan with timelines and cost breakdowns.</p>
+                                            <h2>Structural & Civil Engineering</h2>
+                                            <p>Our expert teams handle the core building phase, executing reinforced concrete structures, masonry works, road paving, and critical infrastructure with precision and industry compliance.</p>
                                         </div>
 
                                         <div className="img-box">
-                                            <img src="assets/images/resources/working-process-v1-img2.jpg" alt=""/>
+                                            <img src="assets/images/resources/work-process-v2-img2.jpg" alt=""/>
                                         </div>
                                     </div>
                                 </div>
@@ -82,8 +82,8 @@ export default function Working() {
                                 <div className="working-process-one__single-tab">
                                     <div className="working-process-one__single-tab-inner">
                                         <div className="content-box">
-                                            <h2>Implementation & Oversight</h2>
-                                            <p>On-site supervision, procurement management, quality assurance, timeline control, and regular reporting — with one dedicated point of contact for the client.</p>
+                                            <h2>Superstructure & Finishes</h2>
+                                            <p>We meticulously construct superstructures, handle roofing, and complete interior fit-outs, focusing on exceptional craftsmanship, plastering, painting, and functional aesthetics.</p>
                                         </div>
 
                                         <div className="img-box">
@@ -99,8 +99,8 @@ export default function Working() {
                                 <div className="working-process-one__single-tab">
                                     <div className="working-process-one__single-tab-inner">
                                         <div className="content-box">
-                                            <h2>Handover & Closeout</h2>
-                                            <p>Completion of works, final sign-offs from engineers, boards, and council. A comprehensive final report and clean handover to you.</p>
+                                            <h2>Quality Assurance & Handover</h2>
+                                            <p>Every project undergoes rigorous inspection against South African construction standards before commissioning, ensuring seamless delivery, compliance, and client satisfaction.</p>
                                         </div>
 
                                         <div className="img-box">

@@ -74,7 +74,7 @@ export default function Faq() {
 
                                     <div className="accrodion-content">
                                         <div className="inner">
-                                            <p>We use industry-leading tools including MS Projects, Build Smart, CCS Candy, Primavera, ZOHO, and Smartsheet for planning, tracking, and reporting.</p>
+                                            <p>We use industry-leading tools including AutoCAD, Civil 3D, Revit, CCS Candy, Primavera, and MS Projects for engineering, planning, tracking, and reporting.</p>
                                         </div>
                                     </div>
                                 </div>
