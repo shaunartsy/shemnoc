@@ -1,9 +1,37 @@
 'use client'
-import { useForm } from '@formspree/react'
+import { useState } from 'react'
 import Link from "next/link"
 
 export default function Footer1() {
-    const [state, handleSubscribe] = useForm('mvzeagln')
+    const [subStatus, setSubStatus] = useState(null)
+    const [isSubmitting, setIsSubmitting] = useState(false)
+
+    const handleSubscribe = async (e) => {
+        e.preventDefault()
+        setIsSubmitting(true)
+        const form = e.target
+        const formData = new FormData(form)
+
+        try {
+            const response = await fetch('https://formspree.io/f/mvzeagln', {
+                method: 'POST',
+                body: formData,
+                headers: {
+                    'Accept': 'application/json'
+                }
+            })
+
+            if (response.ok) {
+                setSubStatus('success')
+                form.reset()
+            } else {
+                setSubStatus('error')
+            }
+        } catch (error) {
+            setSubStatus('error')
+        }
+        setIsSubmitting(false)
+    }
 
     return (
         <>
@@ -28,7 +56,7 @@ export default function Footer1() {
                                 onSubmit={handleSubscribe}
                             >
                                 <input type="email" name="email" placeholder="Enter Your Email" required/>
-                                <button type="submit" className="thm-btn" disabled={state.submitting}>{state.succeeded ? '✓ Subscribed' : 'Sign up'}
+                                <button type="submit" className="thm-btn" disabled={isSubmitting}>{subStatus === 'success' ? '✓ Subscribed' : isSubmitting ? 'Sending...' : 'Sign up'}
                                     <span className="hover-btn hover-bx"></span>
                                     <span className="hover-btn hover-bx2"></span>
                                     <span className="hover-btn hover-bx3"></span>
