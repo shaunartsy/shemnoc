@@ -49,7 +49,7 @@ export default function Header1({ scroll, handleMobileMenu, handlePopup }) {
                                 <Link href="https://facebook.com/shemnoc"><i className="icon-facebook-app-symbol"></i></Link>
                                 <Link href="https://x.com/shemnoc_pm"><i className="icon-twitter1"></i></Link>
                                 <Link href="https://www.linkedin.com/company/shemnocprojectmanagement"><i className="icon-linkedin-big-logo"></i></Link>
-                                <Link href="https://instagram.com/shemnoc_pm"><i className="icon-instagram"></i></Link>
+                                <Link href="https://www.instagram.com/shemnoc/"><i className="icon-instagram"></i></Link>
                             </div>
                         </div>
                     </div>

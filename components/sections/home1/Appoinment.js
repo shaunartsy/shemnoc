@@ -1,37 +1,9 @@
 'use client'
-import { useState } from 'react'
+import { useForm, ValidationError } from '@formspree/react'
 import Link from "next/link"
 
 export default function Appoinment() {
-    const [formStatus, setFormStatus] = useState(null)
-    const [isSubmitting, setIsSubmitting] = useState(false)
-
-    const handleSubmit = async (e) => {
-        e.preventDefault()
-        setIsSubmitting(true)
-
-        const form = e.target
-        const formData = new FormData(form)
-
-        try {
-            const response = await fetch('/__forms.html', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-                body: new URLSearchParams(formData).toString(),
-            })
-
-            if (response.ok) {
-                setFormStatus('success')
-                form.reset()
-            } else {
-                setFormStatus('error')
-            }
-        } catch (error) {
-            setFormStatus('error')
-        }
-
-        setIsSubmitting(false)
-    }
+    const [state, handleSubmit] = useForm('mvzeagln')
 
     return (
         <>
@@ -121,8 +93,8 @@ export default function Appoinment() {
                                 <div className="row">
                                     <div className="col-xl-12">
                                         <div className="button-box">
-                                            <button className="thm-btn" type="submit" disabled={isSubmitting}>
-                                                {isSubmitting ? 'Sending...' : 'Submit Now'}
+                                            <button className="thm-btn" type="submit" disabled={state.submitting}>
+                                                {state.submitting ? 'Sending...' : 'Submit Now'}
                                                 <span className="hover-btn hover-bx"></span>
                                                 <span className="hover-btn hover-bx2"></span>
                                                 <span className="hover-btn hover-bx3"></span>
@@ -133,14 +105,15 @@ export default function Appoinment() {
                                 </div>
                             </form>
 
-                            {formStatus === 'success' && (
+                            {state.succeeded && (
                                 <div style={{marginTop: '20px', padding: '15px', background: '#d4edda', color: '#155724', borderRadius: '5px'}}>
                                     <p>Thank you! Your quote request has been received. We'll be in touch shortly.</p>
                                 </div>
                             )}
-                            {formStatus === 'error' && (
+                            {state.errors && state.errors.length > 0 && (
                                 <div style={{marginTop: '20px', padding: '15px', background: '#f8d7da', color: '#721c24', borderRadius: '5px'}}>
-                                    <p>Oops! Something went wrong. Please try again or call us at +27 64 985 7455.</p>
+                                    <p>Oops! Something went wrong. Please check the fields and try again.</p>
+                                    <ValidationError errors={state.errors} />
                                 </div>
                             )}
                         </div>

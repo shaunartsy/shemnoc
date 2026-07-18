@@ -1,38 +1,10 @@
 'use client'
-import { useState } from 'react'
+import { useForm, ValidationError } from '@formspree/react'
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
 
 export default function Home() {
-    const [formStatus, setFormStatus] = useState(null)
-    const [isSubmitting, setIsSubmitting] = useState(false)
-
-    const handleSubmit = async (e) => {
-        e.preventDefault()
-        setIsSubmitting(true)
-
-        const form = e.target
-        const formData = new FormData(form)
-
-        try {
-            const response = await fetch('/__forms.html', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-                body: new URLSearchParams(formData).toString(),
-            })
-
-            if (response.ok) {
-                setFormStatus('success')
-                form.reset()
-            } else {
-                setFormStatus('error')
-            }
-        } catch (error) {
-            setFormStatus('error')
-        }
-
-        setIsSubmitting(false)
-    }
+    const [state, handleSubmit] = useForm('mvzeagln')
 
     return (
         <>
@@ -117,7 +89,7 @@ export default function Home() {
                                         <li><Link href="https://facebook.com/shemnoc"><span className="icon-facebook"></span></Link></li>
                                         <li><Link href="https://x.com/shemnoc_pm"><span className="icon-twitter1"></span></Link></li>
                                         <li><Link href="https://www.linkedin.com/company/shemnocprojectmanagement"><span className="icon-linkedin-big-logo"></span></Link></li>
-                                        <li><Link href="https://instagram.com/shemnoc_pm"><span className="icon-instagram"></span></Link></li>
+                                        <li><Link href="https://www.instagram.com/shemnoc/"><span className="icon-instagram"></span></Link></li>
                                     </ul>
                                 </div>
                             </div>
@@ -181,8 +153,8 @@ export default function Home() {
 
                                     <div className="col-xl-12">
                                         <div className="contact-page__form-btn">
-                                            <button type="submit" className="thm-btn" disabled={isSubmitting}>
-                                                {isSubmitting ? 'Sending...' : 'Submit Now'}
+                                            <button type="submit" className="thm-btn" disabled={state.submitting}>
+                                                {state.submitting ? 'Sending...' : 'Submit Now'}
                                                 <i className="icon-next"></i>
                                                 <span className="hover-btn hover-bx"></span>
                                                 <span className="hover-btn hover-bx2"></span>
@@ -194,14 +166,15 @@ export default function Home() {
                                 </div>
                             </form>
 
-                            {formStatus === 'success' && (
+                            {state.succeeded && (
                                 <div className="result" style={{marginTop: '20px', padding: '15px', background: '#d4edda', color: '#155724', borderRadius: '5px'}}>
                                     <p>Thank you! Your message has been sent successfully. We'll get back to you soon.</p>
                                 </div>
                             )}
-                            {formStatus === 'error' && (
+                            {state.errors && state.errors.length > 0 && (
                                 <div className="result" style={{marginTop: '20px', padding: '15px', background: '#f8d7da', color: '#721c24', borderRadius: '5px'}}>
-                                    <p>Oops! Something went wrong. Please try again or email us directly at info@shemnoc.co.za.</p>
+                                    <p>Oops! Something went wrong. Please check the fields and try again.</p>
+                                    <ValidationError errors={state.errors} />
                                 </div>
                             )}
                         </div>

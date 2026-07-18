@@ -1,32 +1,9 @@
 'use client'
-import { useState } from 'react'
+import { useForm, ValidationError } from '@formspree/react'
 import Link from "next/link"
 
 export default function Footer1() {
-    const [subStatus, setSubStatus] = useState(null)
-
-    const handleSubscribe = async (e) => {
-        e.preventDefault()
-        const form = e.target
-        const formData = new FormData(form)
-
-        try {
-            const response = await fetch('/__forms.html', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-                body: new URLSearchParams(formData).toString(),
-            })
-
-            if (response.ok) {
-                setSubStatus('success')
-                form.reset()
-            } else {
-                setSubStatus('error')
-            }
-        } catch (error) {
-            setSubStatus('error')
-        }
-    }
+    const [state, handleSubscribe] = useForm('mvzeagln')
 
     return (
         <>
@@ -51,7 +28,7 @@ export default function Footer1() {
                                 onSubmit={handleSubscribe}
                             >
                                 <input type="email" name="email" placeholder="Enter Your Email" required/>
-                                <button type="submit" className="thm-btn">{subStatus === 'success' ? '✓ Subscribed' : 'Sign up'}
+                                <button type="submit" className="thm-btn" disabled={state.submitting}>{state.succeeded ? '✓ Subscribed' : 'Sign up'}
                                     <span className="hover-btn hover-bx"></span>
                                     <span className="hover-btn hover-bx2"></span>
                                     <span className="hover-btn hover-bx3"></span>
@@ -64,7 +41,7 @@ export default function Footer1() {
                             <Link href="https://facebook.com/shemnoc"><span className="icon-facebook-app-symbol"></span></Link>
                             <Link href="https://x.com/shemnoc_pm"><span className="icon-twitter1"></span></Link>
                             <Link href="https://www.linkedin.com/company/shemnocprojectmanagement"><span className="icon-linkedin-big-logo"></span></Link>
-                            <Link href="https://instagram.com/shemnoc_pm"><span className="icon-instagram"></span></Link>
+                            <Link href="https://www.instagram.com/shemnoc/"><span className="icon-instagram"></span></Link>
                         </div>
                     </div>
                 </div>

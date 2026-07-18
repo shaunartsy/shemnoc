@@ -15,7 +15,7 @@ export default function Home() {
                     <div className="col-xl-4 col-lg-6 wow fadeInLeft" data-wow-delay="0ms">
                         <div className="about-two__left">
                             <div className="about-two__left-img">
-                                <img src="assets/images/about/about-v2-img1.jpg" alt="About SHEMNOC"/>
+                                <img src="assets/images/about/stock-construction-site.jpg" alt="About SHEMNOC" style={{ height: "100%", objectFit: "cover", width: "100%", minHeight: "600px" }}/>
                             </div>
                         </div>
                     </div>

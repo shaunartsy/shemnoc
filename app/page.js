@@ -39,7 +39,7 @@ const jsonLd = {
     sameAs: [
         'https://facebook.com/shemnoc',
         'https://www.linkedin.com/company/shemnocprojectmanagement',
-        'https://instagram.com/shemnoc_pm',
+        'https://www.instagram.com/shemnoc/',
         'https://x.com/shemnoc_pm',
     ],
     areaServed: {
