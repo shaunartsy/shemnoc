@@ -1,5 +1,5 @@
 'use client'
-import { useForm, ValidationError } from '@formspree/react'
+import { useForm } from '@formspree/react'
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
 
@@ -174,7 +174,6 @@ export default function Home() {
                             {state.errors && state.errors.length > 0 && (
                                 <div className="result" style={{marginTop: '20px', padding: '15px', background: '#f8d7da', color: '#721c24', borderRadius: '5px'}}>
                                     <p>Oops! Something went wrong. Please check the fields and try again.</p>
-                                    <ValidationError errors={state.errors} />
                                 </div>
                             )}
                         </div>
