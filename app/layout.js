@@ -49,7 +49,7 @@ export const metadata = {
         description: 'SHEMNOC is a proudly South African construction and infrastructure development company delivering innovative, high-quality, and sustainable engineering solutions.',
         images: [
             {
-                url: '/assets/images/resources/logo-1.png',
+                url: '/assets/images/resources/logo-1-v2.png',
                 width: 300,
                 height: 100,
                 alt: 'SHEMNOC Construction and Infrastructure Development',
@@ -60,7 +60,7 @@ export const metadata = {
         card: 'summary_large_image',
         title: 'SHEMNOC | Construction and Infrastructure Development',
         description: 'SHEMNOC is a proudly South African construction and infrastructure development company delivering innovative, high-quality, and sustainable engineering solutions.',
-        images: ['/assets/images/resources/logo-1.png'],
+        images: ['/assets/images/resources/logo-1-v2.png'],
     },
     robots: {
         index: true,

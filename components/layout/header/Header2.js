@@ -64,7 +64,7 @@ export default function Header2({ scroll, handlePopup, handleMobileMenu }) {
                             <div className="main-menu__wrapper-inner">
                                 <div className="main-header-one__bottom-left">
                                     <div className="logo-one">
-                                        <Link href="/"><img src="assets/images/resources/logo-3.png" alt=""/></Link>
+                                        <Link href="/"><img src="assets/images/resources/logo-3-v2.png" alt=""/></Link>
                                     </div>
                                 </div>
 
@@ -105,7 +105,7 @@ export default function Header2({ scroll, handlePopup, handleMobileMenu }) {
                             <div className="main-menu__wrapper-inner">
                                 <div className="main-header-one__bottom-left">
                                     <div className="logo-one">
-                                        <Link href="/"><img src="assets/images/resources/logo-3.png" alt=""/></Link>
+                                        <Link href="/"><img src="assets/images/resources/logo-3-v2.png" alt=""/></Link>
                                     </div>
                                 </div>
 

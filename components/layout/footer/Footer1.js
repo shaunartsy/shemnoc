@@ -40,7 +40,7 @@ export default function Footer1() {
                 <div className="container">
                     <div className="site-footer__top-inner">
                         <div className="site-footer__logo">
-                            <Link href="/"><img src="assets/images/resources/logo-2.png" alt=""/></Link>
+                            <Link href="/"><img src="assets/images/resources/logo-2-v2.png" alt=""/></Link>
                         </div>
 
                         <div className="site-footer__subscribe-form">
