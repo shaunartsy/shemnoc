@@ -11,13 +11,15 @@ export default function Footer1() {
         setIsSubmitting(true)
         const form = e.target
         const formData = new FormData(form)
+        const data = Object.fromEntries(formData.entries())
 
         try {
             const response = await fetch('https://formspree.io/f/mvzeagln', {
                 method: 'POST',
-                body: formData,
+                body: JSON.stringify(data),
                 headers: {
-                    'Accept': 'application/json'
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json'
                 }
             })
 
@@ -25,7 +27,18 @@ export default function Footer1() {
                 setSubStatus('success')
                 form.reset()
             } else {
-                setSubStatus('error')
+                try {
+                    const errData = await response.json()
+                    if (errData.errors) {
+                        setSubStatus(errData.errors.map(e => e.message).join(', '))
+                    } else if (errData.error) {
+                        setSubStatus(errData.error)
+                    } else {
+                        setSubStatus('error')
+                    }
+                } catch (e) {
+                    setSubStatus('error')
+                }
             }
         } catch (error) {
             setSubStatus('error')
@@ -63,6 +76,9 @@ export default function Footer1() {
                                     <span className="hover-btn hover-bx4"></span>
                                 </button>
                             </form>
+                            {subStatus && subStatus !== 'success' && (
+                                <p style={{color: '#ffaaaa', marginTop: '10px', fontSize: '14px'}}>{subStatus === 'error' ? 'Oops! Something went wrong.' : `Error: ${subStatus}`}</p>
+                            )}
                         </div>
 
                         <div className="site-footer__social-links">

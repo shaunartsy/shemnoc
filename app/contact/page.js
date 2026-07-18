@@ -13,13 +13,15 @@ export default function Home() {
 
         const form = e.target
         const formData = new FormData(form)
+        const data = Object.fromEntries(formData.entries())
 
         try {
             const response = await fetch('https://formspree.io/f/mvzeagln', {
                 method: 'POST',
-                body: formData,
+                body: JSON.stringify(data),
                 headers: {
-                    'Accept': 'application/json'
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json'
                 }
             })
 
@@ -27,7 +29,18 @@ export default function Home() {
                 setFormStatus('success')
                 form.reset()
             } else {
-                setFormStatus('error')
+                try {
+                    const errData = await response.json()
+                    if (errData.errors) {
+                        setFormStatus(errData.errors.map(e => e.message).join(', '))
+                    } else if (errData.error) {
+                        setFormStatus(errData.error)
+                    } else {
+                        setFormStatus('error')
+                    }
+                } catch (e) {
+                    setFormStatus('error')
+                }
             }
         } catch (error) {
             setFormStatus('error')
@@ -201,9 +214,9 @@ export default function Home() {
                                     <p>Thank you! Your message has been sent successfully. We'll get back to you soon.</p>
                                 </div>
                             )}
-                            {formStatus === 'error' && (
+                            {formStatus && formStatus !== 'success' && (
                                 <div className="result" style={{marginTop: '20px', padding: '15px', background: '#f8d7da', color: '#721c24', borderRadius: '5px'}}>
-                                    <p>Oops! Something went wrong. Please check the fields and try again.</p>
+                                    <p>{formStatus === 'error' ? 'Oops! Something went wrong. Please check the fields and try again.' : `Error: ${formStatus}`}</p>
                                 </div>
                             )}
                         </div>
