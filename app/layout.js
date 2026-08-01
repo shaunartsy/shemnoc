@@ -14,7 +14,7 @@ export const metadata = {
         default: 'SHEMNOC | Construction and Infrastructure Development in South Africa',
         template: '%s | SHEMNOC',
     },
-    description: 'SHEMNOC is a proudly South African construction and infrastructure development company delivering innovative, high-quality, and sustainable engineering solutions.',
+    description: 'SHEMNOC is a proudly South African construction and infrastructure development company in Centurion, Gauteng, delivering innovative, high-quality, and sustainable engineering solutions.',
     keywords: [
         'construction and infrastructure development',
         'construction company South Africa',
@@ -46,7 +46,7 @@ export const metadata = {
         url: SITE_URL,
         siteName: 'SHEMNOC',
         title: 'SHEMNOC | Construction and Infrastructure Development in South Africa',
-        description: 'SHEMNOC is a proudly South African construction and infrastructure development company delivering innovative, high-quality, and sustainable engineering solutions.',
+        description: 'SHEMNOC is a proudly South African construction and infrastructure development company in Centurion, Gauteng, delivering innovative, high-quality, and sustainable engineering solutions.',
         images: [
             {
                 url: '/assets/images/resources/logo-1-v2.png',
@@ -59,7 +59,7 @@ export const metadata = {
     twitter: {
         card: 'summary_large_image',
         title: 'SHEMNOC | Construction and Infrastructure Development',
-        description: 'SHEMNOC is a proudly South African construction and infrastructure development company delivering innovative, high-quality, and sustainable engineering solutions.',
+        description: 'SHEMNOC is a proudly South African construction and infrastructure development company in Centurion, Gauteng, delivering innovative, high-quality, and sustainable engineering solutions.',
         images: ['/assets/images/resources/logo-1-v2.png'],
     },
     robots: {
