@@ -51,14 +51,14 @@ export default function Footer1() {
            
         {/* Start Site Footer*/} 
         <footer className="site-footer">
-            <div className="shape1 float-bob-y"><img src="assets/images/shapes/footer-v1-shape1.png" alt=""/></div>
+            <div className="shape1 float-bob-y"><img src="assets/images/shapes/footer-v1-shape1.webp" alt=""/></div>
             <div className="shape2 float-bob-y"><span className="icon-pattern"></span></div>
             {/* Start Site Footer Top*/} 
             <div className="site-footer__top">
                 <div className="container">
                     <div className="site-footer__top-inner">
                         <div className="site-footer__logo">
-                            <Link href="/"><img src="assets/images/resources/logo-2-v2.png" alt=""/></Link>
+                            <Link href="/"><img src="assets/images/resources/logo-2-v2.webp" alt=""/></Link>
                         </div>
 
                         <div className="site-footer__subscribe-form">
@@ -180,7 +180,7 @@ export default function Footer1() {
                                 <ul className="footer-widget__gallery-list">
                                     <li>
                                         <div className="img-box">
-                                            <img src="assets/images/resources/footer-v1-img1.jpg" alt=""/>
+                                            <img src="assets/images/resources/footer-v1-img1.webp" alt=""/>
                                             <div className="overlay-icon">
                                                 <Link href="#">
                                                     <span className="icon-plus-1"></span>
@@ -191,7 +191,7 @@ export default function Footer1() {
 
                                     <li>
                                         <div className="img-box">
-                                            <img src="assets/images/resources/footer-v1-img2.jpg" alt=""/>
+                                            <img src="assets/images/resources/footer-v1-img2.webp" alt=""/>
                                             <div className="overlay-icon">
                                                 <Link href="#">
                                                     <span className="icon-plus-1"></span>
@@ -202,7 +202,7 @@ export default function Footer1() {
 
                                     <li>
                                         <div className="img-box">
-                                            <img src="assets/images/resources/footer-v1-img3.jpg" alt=""/>
+                                            <img src="assets/images/resources/footer-v1-img3.webp" alt=""/>
                                             <div className="overlay-icon">
                                                 <Link href="#">
                                                     <span className="icon-plus-1"></span>
@@ -213,7 +213,7 @@ export default function Footer1() {
 
                                     <li>
                                         <div className="img-box">
-                                            <img src="assets/images/resources/footer-v1-img4.jpg" alt=""/>
+                                            <img src="assets/images/resources/footer-v1-img4.webp" alt=""/>
                                             <div className="overlay-icon">
                                                 <Link href="#">
                                                     <span className="icon-plus-1"></span>
@@ -224,7 +224,7 @@ export default function Footer1() {
 
                                     <li>
                                         <div className="img-box">
-                                            <img src="assets/images/resources/footer-v1-img5.jpg" alt=""/>
+                                            <img src="assets/images/resources/footer-v1-img5.webp" alt=""/>
                                             <div className="overlay-icon">
                                                 <Link href="#">
                                                     <span className="icon-plus-1"></span>
@@ -235,7 +235,7 @@ export default function Footer1() {
 
                                     <li>
                                         <div className="img-box">
-                                            <img src="assets/images/resources/footer-v1-img6.jpg" alt=""/>
+                                            <img src="assets/images/resources/footer-v1-img6.webp" alt=""/>
                                             <div className="overlay-icon">
                                                 <Link href="#">
                                                     <span className="icon-plus-1"></span>

@@ -81,7 +81,7 @@ export default function Testimonial() {
                                     <ul>
                                         <li>
                                             <div className="img-box style2">
-                                                <img src="assets/images/testimonial/testimonial-v3-img1.jpg" alt=""/>
+                                                <img src="assets/images/testimonial/testimonial-v3-img1.webp" alt="" loading="lazy" />
                                                 <div className="icon-box">
                                                     <Link href="#"><span className="icon-plus-1"></span></Link>
                                                 </div>
@@ -114,7 +114,7 @@ export default function Testimonial() {
                                     <div className="testimonial-one__single-author">
                                         <div className="img-box">
                                             <div className="inner">
-                                                <img src="assets/images/testimonial/testimonial-v3-img3.jpg" alt="Thabo Mabaso"/>
+                                                <img src="assets/images/testimonial/testimonial-v3-img3.webp" alt="Thabo Mabaso" loading="lazy" />
                                             </div>
                                             <div className="icon">
                                                 <span className="icon-right-quotation-mark"></span>
@@ -146,7 +146,7 @@ export default function Testimonial() {
                                     <div className="testimonial-one__single-author">
                                         <div className="img-box">
                                             <div className="inner">
-                                                <img src="assets/images/testimonial/testimonial-v3-img2.jpg" alt="Naledi Khumalo"/>
+                                                <img src="assets/images/testimonial/testimonial-v3-img2.webp" alt="Naledi Khumalo" loading="lazy" />
                                             </div>
                                             <div className="icon">
                                                 <span className="icon-right-quotation-mark"></span>
@@ -178,7 +178,7 @@ export default function Testimonial() {
                                     <div className="testimonial-one__single-author">
                                         <div className="img-box">
                                             <div className="inner">
-                                                <img src="assets/images/testimonial/testimonial-v3-img1.jpg" alt="Sipho Ndlovu"/>
+                                                <img src="assets/images/testimonial/testimonial-v3-img1.webp" alt="Sipho Ndlovu" loading="lazy" />
                                             </div>
                                             <div className="icon">
                                                 <span className="icon-right-quotation-mark"></span>

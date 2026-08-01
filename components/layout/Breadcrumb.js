@@ -4,13 +4,13 @@ export default function Breadcrumb({ breadcrumbTitle }) {
         <>
 
         <section className="page-header">
-            <div className="page-header__bg" style={{ backgroundImage: ' url(assets/images/backgrounds/page-header-bg.jpg)' }} >
+            <div className="page-header__bg" style={{ backgroundImage: ' url(assets/images/backgrounds/page-header-bg.webp)' }} >
             </div>
             <div className="shape1"></div>
             <div className="shape2"></div>
-            <div className="shape3 float-bob-y"><img src="assets/images/shapes/page-header-shape2.png" alt=""/></div>
-            <div className="shape4 float-bob-y"><img src="assets/images/shapes/page-header-shape3.png" alt=""/></div>
-            <div className="shape5 float-bob-x"><img src="assets/images/shapes/page-header-shape1.png" alt=""/></div>
+            <div className="shape3 float-bob-y"><img src="assets/images/shapes/page-header-shape2.webp" alt=""/></div>
+            <div className="shape4 float-bob-y"><img src="assets/images/shapes/page-header-shape3.webp" alt=""/></div>
+            <div className="shape5 float-bob-x"><img src="assets/images/shapes/page-header-shape1.webp" alt=""/></div>
             <div className="container">
                 <div className="page-header__inner">
                     <h2 className="wow fadeInDown" data-wow-duration="1500ms">{breadcrumbTitle}</h2>

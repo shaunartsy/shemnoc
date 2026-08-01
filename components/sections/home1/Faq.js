@@ -22,10 +22,10 @@ export default function Faq() {
         <>
         {/* Start Faq One*/} 
         <section className="faq-one">
-            <div className="shape1"><img src="assets/images/shapes/faq-v1-shape1.png" alt=""/></div>
-            <div className="shape2"><img src="assets/images/shapes/faq-v1-shape2.png" alt=""/></div>
-            <div className="shape3"><img src="assets/images/shapes/faq-v1-shape3.png" alt=""/></div>
-            <div className="shape4 float-bob-x"><img src="assets/images/shapes/faq-v1-shape4.png" alt=""/></div>
+            <div className="shape1"><img src="assets/images/shapes/faq-v1-shape1.webp" alt="" loading="lazy" /></div>
+            <div className="shape2"><img src="assets/images/shapes/faq-v1-shape2.webp" alt="" loading="lazy" /></div>
+            <div className="shape3"><img src="assets/images/shapes/faq-v1-shape3.webp" alt="" loading="lazy" /></div>
+            <div className="shape4 float-bob-x"><img src="assets/images/shapes/faq-v1-shape4.webp" alt="" loading="lazy" /></div>
             <div className="container">
                 <div className="row">
                     {/* Start Faq One Faq*/} 
@@ -90,12 +90,12 @@ export default function Faq() {
                             <ul className="faq-one__img-list1">
                                 <li>
                                     <div className="img-box">
-                                        <img src="assets/images/resources/faq-v1-img1.jpg" alt=""/>
+                                        <img src="assets/images/resources/faq-v1-img1.webp" alt="" loading="lazy" />
                                     </div>
                                 </li>
                                 <li>
                                     <div className="img-box">
-                                        <img src="assets/images/resources/faq-v1-img2.jpg" alt=""/>
+                                        <img src="assets/images/resources/faq-v1-img2.webp" alt="" loading="lazy" />
                                     </div>
                                 </li>
                             </ul>
@@ -103,12 +103,12 @@ export default function Faq() {
                             <ul className="faq-one__img-list2">
                                 <li>
                                     <div className="img-box">
-                                        <img src="assets/images/resources/faq-v1-img3.jpg" alt=""/>
+                                        <img src="assets/images/resources/faq-v1-img3.webp" alt="" loading="lazy" />
                                     </div>
                                 </li>
                                 <li>
                                     <div className="img-box">
-                                        <img src="assets/images/resources/faq-v1-img4.jpg" alt=""/>
+                                        <img src="assets/images/resources/faq-v1-img4.webp" alt="" loading="lazy" />
                                     </div>
                                 </li>
                             </ul>

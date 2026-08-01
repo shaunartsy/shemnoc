@@ -24,7 +24,7 @@ export default function Working() {
                 <div className="working-process-one__inner">
 
                     <div className="shape1 animation-infinite1"
-                        style={{ backgroundImage: ' url(assets/images/shapes/working-process-v1-shape1.png)' }}></div>
+                        style={{ backgroundImage: ' url(assets/images/shapes/working-process-v1-shape1.webp)' }}></div>
 
                     <div className="working-process-one__tab-box tabs-box">
                         <ul className="tab-buttons clearfix list-unstyled">
@@ -53,7 +53,7 @@ export default function Working() {
                                         </div>
 
                                         <div className="img-box">
-                                            <img src="assets/images/resources/working-process-v1-img1.jpg" alt=""/>
+                                            <img src="assets/images/resources/working-process-v1-img1.webp" alt="" loading="lazy" />
                                         </div>
                                     </div>
                                 </div>
@@ -70,7 +70,7 @@ export default function Working() {
                                         </div>
 
                                         <div className="img-box">
-                                            <img src="assets/images/resources/work-process-v2-img2.jpg" alt=""/>
+                                            <img src="assets/images/resources/work-process-v2-img2.webp" alt="" loading="lazy" />
                                         </div>
                                     </div>
                                 </div>
@@ -87,7 +87,7 @@ export default function Working() {
                                         </div>
 
                                         <div className="img-box">
-                                            <img src="assets/images/resources/working-process-v1-img3.jpg" alt=""/>
+                                            <img src="assets/images/resources/working-process-v1-img3.webp" alt="" loading="lazy" />
                                         </div>
                                     </div>
                                 </div>
@@ -104,7 +104,7 @@ export default function Working() {
                                         </div>
 
                                         <div className="img-box">
-                                            <img src="assets/images/resources/working-process-v1-img4.jpg" alt=""/>
+                                            <img src="assets/images/resources/working-process-v1-img4.webp" alt="" loading="lazy" />
                                         </div>
                                     </div>
                                 </div>

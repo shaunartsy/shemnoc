@@ -59,7 +59,7 @@ export default function Service() {
 
         {/* Start Services One*/} 
         <section className="services-one">
-            <div className="shape1"><img src="assets/images/shapes/services-v1-shape1.png" alt=""/></div>
+            <div className="shape1"><img src="assets/images/shapes/services-v1-shape1.webp" alt="" loading="lazy" /></div>
             <div className="container">
                 <div className="sec-title center text-center tg-heading-subheading animation-style2">
                     <div className="sec-title__tagline">
@@ -85,7 +85,7 @@ export default function Service() {
                                 <p>Turnkey construction solutions across residential, commercial, and industrial sectors, including earthworks, structures, and interior fit-outs.</p>
                             </div>
                             <div className="services-one__single-img">
-                                <img src="assets/images/services/services-v1-img1.jpg" alt=""/>
+                                <img src="assets/images/services/services-v1-img1.webp" alt="" loading="lazy" />
                             </div>
                         </div>
                     </div>
@@ -103,7 +103,7 @@ export default function Service() {
                                 <p>Comprehensive road construction, rehabilitation, and maintenance, including asphalt works, surfacing, and stormwater infrastructure.</p>
                             </div>
                             <div className="services-one__single-img">
-                                <img src="assets/images/services/services-v1-img2.jpg" alt=""/>
+                                <img src="assets/images/services/services-v1-img2.webp" alt="" loading="lazy" />
                             </div>
                         </div>
                     </div>
@@ -122,7 +122,7 @@ export default function Service() {
                             </div>
 
                             <div className="services-one__single-img">
-                                <img src="assets/images/services/services-v1-img3.jpg" alt=""/>
+                                <img src="assets/images/services/services-v1-img3.webp" alt="" loading="lazy" />
                             </div>
                         </div>
                     </div>
@@ -140,7 +140,7 @@ export default function Service() {
                                 <p>Efficient project delivery maintaining quality, safety, cost control, and comprehensive stakeholder coordination.</p>
                             </div>
                             <div className="services-one__single-img">
-                                <img src="assets/images/services/services-v1-img4.jpg" alt=""/>
+                                <img src="assets/images/services/services-v1-img4.webp" alt="" loading="lazy" />
                             </div>
                         </div>
                     </div>

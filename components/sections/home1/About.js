@@ -5,8 +5,8 @@ export default function About() {
         <>
         {/* Start About One*/} 
         <section className="about-one">
-            <div className="shape1 float-bob-y"><img src="assets/images/shapes/about-v1-shape1.png" alt=""/></div>
-            <div className="shape2"><img src="assets/images/shapes/about-v1-shape2.png" alt=""/></div>
+            <div className="shape1 float-bob-y"><img src="assets/images/shapes/about-v1-shape1.webp" alt="" loading="lazy" /></div>
+            <div className="shape2"><img src="assets/images/shapes/about-v1-shape2.webp" alt="" loading="lazy" /></div>
             <div className="container">
                 <div className="row">
                     {/* Start About One Counter*/} 
@@ -55,11 +55,11 @@ export default function About() {
                         data-wow-duration="1500ms">
                         <div className="about-one__img">
                             <div className="about-one__img1">
-                                <img src="assets/images/about/about-v1-img1.jpg" alt="" width="1000" height="700" />
+                                <img src="assets/images/about/about-v1-img1.webp" alt="" width="1000" height="700"  loading="lazy" />
                             </div>
 
                             <div className="about-one__img2">
-                                <img src="assets/images/about/about-v1-img2.jpg" alt="" width="1000" height="700" />
+                                <img src="assets/images/about/about-v1-img2.webp" alt="" width="1000" height="700"  loading="lazy" />
                             </div>
                         </div>
                     </div>

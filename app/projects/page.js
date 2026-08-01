@@ -15,7 +15,7 @@ export default function Home() {
                             <li>
                                 <div className="portfolio-one__single-inner">
                                     <div className="portfolio-one__single__bg"
-                                        style={{ backgroundImage: ' url(assets/images/project/portfolio-v1-img1.jpg)' }}></div>
+                                        style={{ backgroundImage: ' url(assets/images/project/portfolio-v1-img1.webp)' }}></div>
                                     <div className="portfolio-one__single-content">
                                         <div className="text-box">
                                             <p>Construction</p>
@@ -31,7 +31,7 @@ export default function Home() {
                             <li>
                                 <div className="portfolio-one__single-inner">
                                     <div className="portfolio-one__single__bg"
-                                        style={{ backgroundImage: ' url(assets/images/project/portfolio-v1-img2.jpg)' }}></div>
+                                        style={{ backgroundImage: ' url(assets/images/project/portfolio-v1-img2.webp)' }}></div>
                                     <div className="portfolio-one__single-content">
                                         <div className="text-box">
                                             <p>Construction Supervision</p>
@@ -47,7 +47,7 @@ export default function Home() {
                             <li>
                                 <div className="portfolio-one__single-inner">
                                     <div className="portfolio-one__single__bg"
-                                        style={{ backgroundImage: ' url(assets/images/project/portfolio-v1-img3.jpg)' }}></div>
+                                        style={{ backgroundImage: ' url(assets/images/project/portfolio-v1-img3.webp)' }}></div>
                                     <div className="portfolio-one__single-content">
                                         <div className="text-box">
                                             <p>Quantity Surveying</p>
@@ -63,7 +63,7 @@ export default function Home() {
                             <li>
                                 <div className="portfolio-one__single-inner">
                                     <div className="portfolio-one__single__bg"
-                                        style={{ backgroundImage: ' url(assets/images/project/portfolio-v1-img4.jpg)' }}></div>
+                                        style={{ backgroundImage: ' url(assets/images/project/portfolio-v1-img4.webp)' }}></div>
                                     <div className="portfolio-one__single-content">
                                         <div className="text-box">
                                             <p>Infrastructure</p>
@@ -85,7 +85,7 @@ export default function Home() {
                             <li>
                                 <div className="portfolio-one__single-inner">
                                     <div className="portfolio-one__single__bg"
-                                        style={{ backgroundImage: ' url(assets/images/project/portfolio-v1-img5.jpg)' }}></div>
+                                        style={{ backgroundImage: ' url(assets/images/project/portfolio-v1-img5.webp)' }}></div>
                                     <div className="portfolio-one__single-content">
                                         <div className="text-box">
                                             <p>Construction Supervision</p>
@@ -101,7 +101,7 @@ export default function Home() {
                             <li>
                                 <div className="portfolio-one__single-inner">
                                     <div className="portfolio-one__single__bg"
-                                        style={{ backgroundImage: ' url(assets/images/project/portfolio-v1-img6.jpg)' }}></div>
+                                        style={{ backgroundImage: ' url(assets/images/project/portfolio-v1-img6.webp)' }}></div>
                                     <div className="portfolio-one__single-content">
                                         <div className="text-box">
                                             <p>Quantity Surveying</p>
@@ -117,7 +117,7 @@ export default function Home() {
                             <li>
                                 <div className="portfolio-one__single-inner">
                                     <div className="portfolio-one__single__bg"
-                                        style={{ backgroundImage: ' url(assets/images/project/portfolio-v1-img7.jpg)' }}></div>
+                                        style={{ backgroundImage: ' url(assets/images/project/portfolio-v1-img7.webp)' }}></div>
                                     <div className="portfolio-one__single-content">
                                         <div className="text-box">
                                             <p>Construction</p>
@@ -133,7 +133,7 @@ export default function Home() {
                             <li>
                                 <div className="portfolio-one__single-inner">
                                     <div className="portfolio-one__single__bg"
-                                        style={{ backgroundImage: ' url(assets/images/project/portfolio-v1-img8.jpg)' }}></div>
+                                        style={{ backgroundImage: ' url(assets/images/project/portfolio-v1-img8.webp)' }}></div>
                                     <div className="portfolio-one__single-content">
                                         <div className="text-box">
                                             <p>Registration & Compliance</p>

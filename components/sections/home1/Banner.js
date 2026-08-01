@@ -38,10 +38,10 @@ export default function Banner() {
                 {/* Start Main Slider One Single*/} 
                 <div className="main-slider-one__single">
                     <div className="main-slider-one__bg"
-                        style={{ backgroundImage: ' url(assets/images/backgrounds/slider-v1-img1.jpg)' }}></div>
-                    <div className="shape1"><img src="assets/images/shapes/slider-v1-shape1.png" alt=""/></div>
-                    <div className="shape2"><img src="assets/images/shapes/slider-v1-shape2.png" alt=""/></div>
-                    <div className="main-slider-one__img2"><img src="assets/images/slider/slider-v1-img2.png" alt=""/></div>
+                        style={{ backgroundImage: ' url(assets/images/backgrounds/slider-v1-img1.webp)' }}></div>
+                    <div className="shape1"><img src="assets/images/shapes/slider-v1-shape1.webp" alt=""/></div>
+                    <div className="shape2"><img src="assets/images/shapes/slider-v1-shape2.webp" alt=""/></div>
+                    <div className="main-slider-one__img2"><img src="assets/images/slider/slider-v1-img2.webp" alt=""/></div>
                     <div className="container">
                         <div className="main-slider-one__content">
                             <div className="tagline">

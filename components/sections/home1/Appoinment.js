@@ -53,10 +53,10 @@ export default function Appoinment() {
         {/* Start Appoinment One*/} 
         <section className="appoinment-one">
             <div className="appoinment-one__pattern"
-                style={{ backgroundImage: ' url(assets/images/pattern/appoinment-v1-pattern.png)' }}></div>
+                style={{ backgroundImage: ' url(assets/images/pattern/appoinment-v1-pattern.webp)' }}></div>
             <div className="shape1"></div>
             <div className="appoinment-one__bg"
-                style={{ backgroundImage: ' url(assets/images/backgrounds/appoinment-v1-bg.jpg)' }}>
+                style={{ backgroundImage: ' url(assets/images/backgrounds/appoinment-v1-bg.webp)' }}>
             </div>
             <div className="container">
                 <div className="row">
