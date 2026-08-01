@@ -9,6 +9,7 @@ import Sidebar from "./Sidebar"
 import Header1 from "./header/Header1"
 import Header2 from './header/Header2'
 import Footer1 from './footer/Footer1'
+import WhatsAppButton from '../elements/WhatsAppButton'
 
 export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumbTitle, children, wrapperCls }) {
     const [scroll, setScroll] = useState(0)
@@ -61,6 +62,7 @@ export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumb
                 {footerStyle == 1 ? < Footer1 /> : null}
             </div>
             <BackToTop scroll={scroll} />
+            <WhatsAppButton />
         </>
     )
 }
