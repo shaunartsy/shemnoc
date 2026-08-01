@@ -196,7 +196,7 @@ export default function Home() {
 
                                     <div className="col-xl-12">
                                         <div className="contact-page__form-btn">
-                                            <button type="submit" className="thm-btn" disabled={isSubmitting}>
+                                            <button type="submit" className="thm-btn" disabled={isSubmitting} onClick={() => typeof window !== 'undefined' && window.gtag_report_conversion && window.gtag_report_conversion()}>
                                                 {isSubmitting ? 'Sending...' : 'Submit Now'}
                                                 <i className="icon-next"></i>
                                                 <span className="hover-btn hover-bx"></span>

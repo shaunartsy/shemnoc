@@ -136,7 +136,7 @@ export default function Appoinment() {
                                 <div className="row">
                                     <div className="col-xl-12">
                                         <div className="button-box">
-                                            <button className="thm-btn" type="submit" disabled={isSubmitting}>
+                                            <button className="thm-btn" type="submit" disabled={isSubmitting} onClick={() => typeof window !== 'undefined' && window.gtag_report_conversion && window.gtag_report_conversion()}>
                                                 {isSubmitting ? 'Sending...' : 'Submit Now'}
                                                 <span className="hover-btn hover-bx"></span>
                                                 <span className="hover-btn hover-bx2"></span>

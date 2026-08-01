@@ -95,6 +95,25 @@ export default function RootLayout({ children }) {
                         `,
                     }}
                 />
+                {/* Event snippet for Website lead conversion page */}
+                <script
+                    dangerouslySetInnerHTML={{
+                        __html: `
+  function gtag_report_conversion(url) {
+    var callback = function () {
+      if (typeof(url) != 'undefined') {
+        window.location = url;
+      }
+    };
+    gtag('event', 'conversion', {
+        'send_to': 'AW-18363921174/-jrqCM69m9ocEJbmzLRE',
+        'event_callback': callback
+    });
+    return false;
+  }
+                        `,
+                    }}
+                />
             </head>
             <body suppressHydrationWarning>{children}</body>
         </html>
