@@ -5009,7 +5009,7 @@ Slider All Responsice Css
       right: 50px;
   }
 
-  .main-slider-one__content .title-box h2 {
+  .main-slider-one__content .title-box h1, .main-slider-one__content .title-box h2 {
       font-size: 50px;
   }
 
@@ -5143,7 +5143,7 @@ Slider All Responsice Css
       display: none;
   }
 
-  .main-slider-one__content .title-box h2 {
+  .main-slider-one__content .title-box h1, .main-slider-one__content .title-box h2 {
       font-size: 50px;
   }
 
@@ -5304,12 +5304,12 @@ Slider All Responsice Css
       font-size: 16px;
   }
 
-  .main-slider-one__content .title-box h2 {
+  .main-slider-one__content .title-box h1, .main-slider-one__content .title-box h2 {
       font-size: 35px;
       line-height: 1.3em;
   }
 
-  .main-slider-one__content .title-box h2 br {
+  .main-slider-one__content .title-box h1 br, .main-slider-one__content .title-box h2 br {
       display: none;
   }
 

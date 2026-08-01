@@ -275,7 +275,7 @@ Main Slider One
     transition-delay: 900ms;
 }
 
-.main-slider-one__content .title-box h2 {
+.main-slider-one__content .title-box h1, .main-slider-one__content .title-box h2 {
     color: var(--billdins-white);
     font-size: 64px;
     line-height: 1.2em;
