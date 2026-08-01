@@ -1,35 +1,6 @@
 import "@/node_modules/react-modal-video/css/modal-video.css"
-import "../public/assets/css/01-bootstrap.min.css"
-import "../public/assets/css/02-animate.min.css"
-import "../public/assets/css/03-custom-animate.css"
-import "../public/assets/css/04-flaticon.css"
-import "../public/assets/css/05-nice-select.css"
+import "../public/assets/css/merged-styles.css"
 import "../public/assets/css/fontawesome/css/all.min.css"
-import "../public/assets/css/module-css/01-slider.css"
-import "../public/assets/css/module-css/02-about.css"
-import "../public/assets/css/module-css/03-services.css"
-import "../public/assets/css/module-css/04-testimonial.css"
-import "../public/assets/css/module-css/05-team.css"
-import "../public/assets/css/module-css/06-blog.css"
-import "../public/assets/css/module-css/07-contact.css"
-import "../public/assets/css/module-css/08-counter.css"
-import "../public/assets/css/module-css/09-error.css"
-import "../public/assets/css/module-css/10-faq.css"
-import "../public/assets/css/module-css/11-footer.css"
-import "../public/assets/css/module-css/12-page-header.css"
-import "../public/assets/css/module-css/13-shop.css"
-import "../public/assets/css/module-css/14-video.css"
-import "../public/assets/css/module-css/appoinment.css"
-import "../public/assets/css/module-css/brand.css"
-import "../public/assets/css/module-css/coming-soon.css"
-import "../public/assets/css/module-css/cta.css"
-import "../public/assets/css/module-css/feature.css"
-import "../public/assets/css/module-css/pricing.css"
-import "../public/assets/css/module-css/project.css"
-import "../public/assets/css/module-css/subscribe.css"
-import "../public/assets/css/module-css/why-choose.css"
-import "../public/assets/css/module-css/working-process.css"
-import "../public/assets/css/bildins.css"
 import 'swiper/css'
 // import "swiper/css/navigation"
 import "swiper/css/pagination"
@@ -112,6 +83,7 @@ export default function RootLayout({ children }) {
     return (
         <html lang="en" className={`${publicSans.variable} ${exo.variable}`}>
             <head>
+                <link rel="preload" as="image" href="/assets/images/backgrounds/slider-v1-img1.webp" type="image/webp" fetchPriority="high" />
                 {/* Google tag (gtag.js) */}
                 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18363921174"></script>
                 <script
