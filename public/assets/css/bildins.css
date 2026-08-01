@@ -13,38 +13,7 @@
 # Google Map
 # Client Carousel
 --------------------------------------------------------------*/
-@import url('../css/01-bootstrap.min.css');
-@import url('../css/02-animate.min.css');
-@import url('../css/03-custom-animate.css');
-@import url('../css/04-flaticon.css');
-@import url('../css/05-nice-select.css');
-@import url('../css/fontawesome/css/all.min.css');
 
-@import url('../css/module-css/01-slider.css');
-@import url('../css/module-css/02-about.css');
-@import url('../css/module-css/03-services.css');
-@import url('../css/module-css/04-testimonial.css');
-@import url('../css/module-css/05-team.css');
-@import url('../css/module-css/06-blog.css');
-@import url('../css/module-css/07-contact.css');
-@import url('../css/module-css/07-contact.css');
-@import url('../css/module-css/08-counter.css');
-@import url('../css/module-css/09-error.css');
-@import url('../css/module-css/10-faq.css');
-@import url('../css/module-css/11-footer.css');
-@import url('../css/module-css/12-page-header.css');
-@import url('../css/module-css/13-shop.css');
-@import url('../css/module-css/14-video.css');
-@import url('../css/module-css/appoinment.css');
-@import url('../css/module-css/brand.css');
-@import url('../css/module-css/coming-soon.css');
-@import url('../css/module-css/cta.css');
-@import url('../css/module-css/feature.css');
-@import url('../css/module-css/pricing.css');
-@import url('../css/module-css/project.css');
-@import url('../css/module-css/subscribe.css');
-@import url('../css/module-css/why-choose.css');
-@import url('../css/module-css/working-process.css');
 /***
 =============================================
 Common
@@ -55,8 +24,8 @@ Common
   --billdins-base-rgb: 65, 149, 195;
   --billdins-black: #162B57;
   --billdins-black-rgb: 22, 43, 87;
-  --billdins-gray: #8C939A;
-  --billdins-gray-rgb: 140, 147, 154;
+  --billdins-gray: #5A626A;
+  --billdins-gray-rgb: 90, 98, 106;
   --billdins-white: #ffffff;
   --billdins-white-rgb: 255, 255, 255;
   --billdins-gray-bg: #EDEDED;

@@ -46,10 +46,10 @@ export default function Header1({ scroll, handleMobileMenu, handlePopup }) {
 
                         <div className="main-header-one__top-right">
                             <div className="header-style1__social-links">
-                                <Link href="https://facebook.com/shemnoc"><i className="icon-facebook-app-symbol"></i></Link>
-                                <Link href="https://x.com/shemnoc_pm"><i className="icon-twitter1"></i></Link>
-                                <Link href="https://www.linkedin.com/company/shemnocprojectmanagement"><i className="icon-linkedin-big-logo"></i></Link>
-                                <Link href="https://www.instagram.com/shemnoc/"><i className="icon-instagram"></i></Link>
+                                <Link href="https://facebook.com/shemnoc" aria-label="Facebook"><i className="icon-facebook-app-symbol"></i></Link>
+                                <Link href="https://x.com/shemnoc_pm" aria-label="Twitter"><i className="icon-twitter1"></i></Link>
+                                <Link href="https://www.linkedin.com/company/shemnocprojectmanagement" aria-label="LinkedIn"><i className="icon-linkedin-big-logo"></i></Link>
+                                <Link href="https://www.instagram.com/shemnoc/" aria-label="Instagram"><i className="icon-instagram"></i></Link>
                             </div>
                         </div>
                     </div>
@@ -71,7 +71,7 @@ export default function Header1({ scroll, handleMobileMenu, handlePopup }) {
 
                                 <div className="main-header-one__bottom-middle">
                                     <div className="main-menu__main-menu-box">
-                                        <Link href="#" className="mobile-nav__toggler" onClick={handleMobileMenu}>   <i className="fa fa-bars"></i></Link>
+                                        <Link href="#" className="mobile-nav__toggler" onClick={handleMobileMenu} aria-label="Mobile Menu Toggle">   <i className="fa fa-bars"></i></Link>
                                         <Menu/>
                                     </div>
                                 </div>

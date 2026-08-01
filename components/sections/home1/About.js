@@ -55,11 +55,11 @@ export default function About() {
                         data-wow-duration="1500ms">
                         <div className="about-one__img">
                             <div className="about-one__img1">
-                                <img src="assets/images/about/about-v1-img1.jpg" alt=""/>
+                                <img src="assets/images/about/about-v1-img1.jpg" alt="" width="1000" height="700" />
                             </div>
 
                             <div className="about-one__img2">
-                                <img src="assets/images/about/about-v1-img2.jpg" alt=""/>
+                                <img src="assets/images/about/about-v1-img2.jpg" alt="" width="1000" height="700" />
                             </div>
                         </div>
                     </div>

@@ -56,7 +56,7 @@ export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumb
 
                 {breadcrumbTitle && <Breadcrumb breadcrumbTitle={breadcrumbTitle} />}
 
-                {children}
+                <main>{children}</main>
 
                 {!footerStyle && < Footer1 />}
                 {footerStyle == 1 ? < Footer1 /> : null}

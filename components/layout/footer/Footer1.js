@@ -82,10 +82,10 @@ export default function Footer1() {
                         </div>
 
                         <div className="site-footer__social-links">
-                            <Link href="https://facebook.com/shemnoc"><span className="icon-facebook-app-symbol"></span></Link>
-                            <Link href="https://x.com/shemnoc_pm"><span className="icon-twitter1"></span></Link>
-                            <Link href="https://www.linkedin.com/company/shemnocprojectmanagement"><span className="icon-linkedin-big-logo"></span></Link>
-                            <Link href="https://www.instagram.com/shemnoc/"><span className="icon-instagram"></span></Link>
+                            <Link href="https://facebook.com/shemnoc" aria-label="Facebook"><span className="icon-facebook-app-symbol"></span></Link>
+                            <Link href="https://x.com/shemnoc_pm" aria-label="Twitter"><span className="icon-twitter1"></span></Link>
+                            <Link href="https://www.linkedin.com/company/shemnocprojectmanagement" aria-label="LinkedIn"><span className="icon-linkedin-big-logo"></span></Link>
+                            <Link href="https://www.instagram.com/shemnoc/" aria-label="Instagram"><span className="icon-instagram"></span></Link>
                         </div>
                     </div>
                 </div>
